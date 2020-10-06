@@ -8,6 +8,10 @@ body {
   font-family:  'Poppins', sans-serif;
 }
 
+h1, h2, h3, h4 {
+  font-family:  'Poppins', sans-serif;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -27,31 +31,28 @@ main {
   width: 100%;
 }
 
+.projectSection {
+  width: 100%;
+  background-color: white;
+}
+
 .videoSection {
   width: 100%;
-  height: 40rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 .pressSection {
   width: 100%;
-  height: 40rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: whitesmoke;
-}
-
-.contactSection {
-  width: 100%;
-  height: 40rem;
+  min-height: 30rem;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
+}
+
+.contactSection {
+  width: 100%;
+  background-color: whitesmoke;
 }
 
 .navbar {

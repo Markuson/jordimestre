@@ -1,5 +1,4 @@
-import Link from 'next/link'
-import { useState, useEffect } from 'react'
+import styles from '../../styles/styles.module.css'
 
 export default function Navbar() {
 
@@ -18,25 +17,25 @@ export default function Navbar() {
             </div>
             <div className="uk-navbar-right uk-padding uk-padding-remove-vertical">
                 <ul className="uk-navbar-nav">
-                    <div className='uk-padding'>
+                    <div className='uk-padding-small'>
                         <li className='uk-active'>
-                            <a style={textStyles()} className="uk-button uk-button-text uk-button-small uk-text" href="#videos" data-uk-scroll>
-                                VIDEOS
-                                </a>
+                            <a className={styles.hvrPulseGrow} target="_blank" href="https://www.instagram.com/jordi_mestre_lopez/" >
+                                <img src='icons/instagram.png' width="30px" />
+                            </a>
                         </li>
                     </div>
-                    <div className='uk-padding'>
+                    <div className='uk-padding-small'>
                         <li>
-                            <a style={textStyles()} className="uk-button uk-button-text uk-button-small uk-text" href="#press" data-uk-scroll>
-                                PREMSA
-                                    </a>
+                            <a className={styles.hvrPulseGrow} target="_blank" href="https://www.youtube.com/channel/UCV3HknII0tr9Xgrm29cxYFA/featured" >
+                                <img src='icons/youtube.png' width="30px" />
+                            </a>
                         </li>
                     </div>
-                    <div className='uk-padding'>
+                    <div className='uk-padding-small'>
                         <li>
-                            <a style={textStyles()} className="uk-button uk-button-text uk-button-small uk-text" href="#contact" data-uk-scroll>
-                                CONTACTE
-                                    </a>
+                            <a className={styles.hvrPulseGrow} href="#contact" data-uk-scroll>
+                                <img src='icons/mail.png' width="30px" />
+                            </a>
                         </li>
                     </div>
                 </ul>

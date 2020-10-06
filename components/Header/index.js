@@ -1,10 +1,25 @@
-import {useEffect, useState} from 'react'
+import {useEffect, useRef, useState} from 'react'
 import Navbar from '../Navbar'
 
 export default function Header() {
 
   const [imageIndex, setImageIndex] = useState(0)
+
+  const childrenRef = useRef(null)
+  const parentRef = useRef(null)
+
   const totalImages = 20
+
+  useEffect ( () => {
+    let childrenHeight = 0
+    if(childrenRef.current){
+        childrenHeight = childrenRef.current.offsetHeight;
+    }
+    if(parentRef.current){
+      parentRef.current.offsetHeight = childrenHeight
+  }
+
+}, [childrenRef]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -13,16 +28,17 @@ export default function Header() {
         newIndex = imageIndex + 1
       }
       setImageIndex(newIndex)
-      console.log(imageIndex)
     }, 10000)
+
+
     return () => {
       clearInterval(interval)
     }
   }, [imageIndex])
 
-  return <div className="uk-height-viewport uk-position-relative">
+  return <div className="uk-position-relative">
 
-    <div>
+    <div ref = { childrenRef }>
         <img className="uk-animation-fade" hidden={imageIndex == 0 ? false : true} id="image0" src="images\foto0.jpg" alt="foto principal" />
         <img className="uk-animation-fade" hidden={imageIndex == 1 ? false : true} id="image1" src="images\foto1.jpg" alt="foto principal" />
         <img className="uk-animation-fade" hidden={imageIndex == 2 ? false : true} id="image1" src="images\foto2.jpg" alt="foto principal" />
