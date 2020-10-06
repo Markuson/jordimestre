@@ -1,11 +1,13 @@
 {
   "name": "jordimestre",
   "version": "0.1.0",
+  "description": "soulmountain project website",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "next": "9.5.2",
