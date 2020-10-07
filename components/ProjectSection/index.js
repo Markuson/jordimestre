@@ -9,7 +9,7 @@ export default function ProjectSection() {
     <div className="uk-padding uk-padding-remove-top uk-flex uk-flex-center">
       <div>
         <div data-uk-scrollspy="cls:uk-animation-slide-left-small; delay: 250; repeat: true">
-            <p>
+            <p className="uk-text-justify">
               Soul Mountain is a project that blends music and mountaineering together, two disciplines that at first sight may not seem related at all.
               However, this is not the case for Jordi Mestre, who has always seen a deep connection between the two, creating his most personal project to
               date thanks to this idea.
@@ -28,7 +28,7 @@ export default function ProjectSection() {
           <h3>
             Jordi Mestre
           </h3>
-          <p>
+          <p className="uk-text-justify">
             Jordi Mestre is a musician that honed his skills at ESEM - Taller de Músics de Barcelona. He is part of several well-known musical projects in the
             region of Lleida such as Pixie Dixie, Sonsonite and Food4Soul. He has also been part of bands and projects like Barcelona Ghana Revolution
             (including an African tour), Orgàsmic Quintet, Ignasi González Trio, The Crossfathers...
@@ -41,14 +41,14 @@ export default function ProjectSection() {
           <h3>
             Soul Mountain Team
           </h3>
-          <p>
+          <p className="uk-text-justify">
             This project is also an attempt to bring relevance to the professional roles of mountaineering guides and camera operators. Without them, none
             of this would be possible.
           </p>
           <h4>
             Roger López
           </h4>
-          <p>
+          <p className="uk-text-justify">
             Roger is a widely respected figure in the mountaineering world. His passion and dedication to rocks, ice and snow included him in one of the first
             generations of mountaineering guides in his country. He also trains climbers and alpine technicians, and is part of the ZAG, Marmot and Adidas
             pro teams.
@@ -58,7 +58,7 @@ export default function ProjectSection() {
               Jordi Rulló
             </a>
           </h4>
-          <p>
+          <p className="uk-text-justify">
             Jordi splits his time between the city of Lleida and the Catalan Pyrenees, where he works as a guide and photographer. After nearly fifteen
             years working on extreme sports as a kayak, rafting, skiing and snowboarding instructor; he decided to study photography and has combined
             all those disciplines ever since.
@@ -68,7 +68,7 @@ export default function ProjectSection() {
           <h3>
             Sponsorship opportunities
           </h3>
-          <p>
+          <p className="uk-text-justify">
             In order to move Soul Mountain forward and to produce further videos, it is essential for us to find sponsors that help support the project with
             funding to cover the costs related to video recording and editing, audio mixing and mastering, professional guide services, gear rental...
             All contributions will be dearly welcome and featured in upcoming videos.
