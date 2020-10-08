@@ -13,29 +13,29 @@ export default function Navbar() {
             <nav id="navbar" className="uk-width-1-1 uk-navbar-container uk-dark uk-position-top uk-position-z-index" data-uk-navbar data-uk-scrollspy="cls:uk-animation-fade ">
                 <div className="uk-navbar-left uk-padding-small">
                     <div className="uk-padding uk-padding-remove-vertical">
-                        <img className="logo" src='logo.png' alt="soulmountain" width="200px" />
+                        <img className="logo" src='logo.png' alt="soulmountain" width="200px" height="100px" />
                     </div>
                 </div>
                 <div className="uk-navbar-right uk-padding uk-padding-remove-vertical">
                     <ul className="uk-navbar-nav">
                         <div className='uk-padding-small'>
                             <li className='uk-active'>
-                                <a className={styles.hvrPulseGrow} target="_blank" href="https://www.instagram.com/jordi_mestre_lopez/" >
-                                    <img src='icons/instagram.png' width="30px" />
+                                <a className={styles.hvrPulseGrow} target="_blank" href="https://www.instagram.com/jordi_mestre_lopez/" rel="noopener noreferrer">
+                                    <img src='icons/instagram.png' width="30px" height="30px" />
                                 </a>
                             </li>
                         </div>
                         <div className='uk-padding-small'>
                             <li>
-                                <a className={styles.hvrPulseGrow} target="_blank" href="https://www.youtube.com/channel/UCV3HknII0tr9Xgrm29cxYFA/featured" >
-                                    <img src='icons/youtube.png' width="30px" />
+                                <a className={styles.hvrPulseGrow} target="_blank" href="https://www.youtube.com/channel/UCV3HknII0tr9Xgrm29cxYFA/featured" rel="noopener noreferrer">
+                                    <img src='icons/youtube.png' width="30px" height="30px" />
                                 </a>
                             </li>
                         </div>
                         <div className='uk-padding-small'>
                             <li>
-                                <a className={styles.hvrPulseGrow} href="#contact" data-uk-scroll>
-                                    <img src='icons/mail.png' width="30px" />
+                                <a className={styles.hvrPulseGrow} href="#contact" rel="noopener noreferrer" data-uk-scroll>
+                                    <img src='icons/mail.png' width="30px" height="30px" />
                                 </a>
                             </li>
                         </div>

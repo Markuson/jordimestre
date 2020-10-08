@@ -24,7 +24,7 @@ export default function ProjectSection() {
               located in.
           </p>
         </div>
-        <div data-uk-scrollspy="cls:uk-animation-slide-right-small; delay: 250; repeat: true">
+        <div className="uk-padding-small uk-padding-remove-horizontal" data-uk-scrollspy="cls:uk-animation-slide-right-small; delay: 250; repeat: true">
           <h3>
             Jordi Mestre
           </h3>
@@ -37,7 +37,7 @@ export default function ProjectSection() {
             He is also a member of the organization for the Camping Jazz Senterada seminar, which takes place in the Vall Fosca region.
           </p>
         </div>
-        <div data-uk-scrollspy="cls:uk-animation-slide-left-small; delay: 250; repeat: true">
+        <div className="uk-padding-small uk-padding-remove-horizontal" data-uk-scrollspy="cls:uk-animation-slide-left-small; delay: 250; repeat: true">
           <h3>
             Soul Mountain Team
           </h3>
@@ -45,7 +45,7 @@ export default function ProjectSection() {
             This project is also an attempt to bring relevance to the professional roles of mountaineering guides and camera operators. Without them, none
             of this would be possible.
           </p>
-          <h4>
+          <h4 className="uk-margin-remove-vertical">
             Roger López
           </h4>
           <p className="uk-text-justify">
@@ -53,8 +53,8 @@ export default function ProjectSection() {
             generations of mountaineering guides in his country. He also trains climbers and alpine technicians, and is part of the ZAG, Marmot and Adidas
             pro teams.
           </p>
-          <h4>
-            <a className="uk-link-heading" target="_blank" href="http://jordirullo.com/">
+          <h4 className="uk-margin-remove-top">
+            <a className="uk-link-heading" target="_blank" href="http://jordirullo.com/" rel="noopener noreferrer">
               Jordi Rulló
             </a>
           </h4>
@@ -64,7 +64,7 @@ export default function ProjectSection() {
             all those disciplines ever since.
           </p>
         </div>
-        <div data-uk-scrollspy="cls:uk-animation-slide-right-small; delay: 250; repeat: true">
+        <div className="uk-padding-small uk-padding-remove-horizontal" data-uk-scrollspy="cls:uk-animation-slide-right-small; delay: 250; repeat: true">
           <h3>
             Sponsorship opportunities
           </h3>
@@ -77,4 +77,4 @@ export default function ProjectSection() {
       </div>
     </div>
   </div>
-} 
+}
