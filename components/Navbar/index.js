@@ -18,27 +18,27 @@ export default function Navbar() {
                 </div>
                 <div className="uk-navbar-right uk-padding uk-padding-remove-vertical">
                     <ul className="uk-navbar-nav">
-                        <div className='uk-padding-small'>
-                            <li className='uk-active'>
+                        <li className='uk-active'>
+                            <div className='uk-padding-small'>
                                 <a className={styles.hvrPulseGrow} target="_blank" href="https://www.instagram.com/jordi_mestre_lopez/" rel="noopener noreferrer">
                                     <img src='icons/instagram.png' width="30px" height="30px" />
                                 </a>
-                            </li>
-                        </div>
-                        <div className='uk-padding-small'>
-                            <li>
+                            </div>
+                        </li>
+                        <li>
+                            <div className='uk-padding-small'>
                                 <a className={styles.hvrPulseGrow} target="_blank" href="https://www.youtube.com/channel/UCV3HknII0tr9Xgrm29cxYFA/featured" rel="noopener noreferrer">
                                     <img src='icons/youtube.png' width="30px" height="30px" />
                                 </a>
-                            </li>
-                        </div>
-                        <div className='uk-padding-small'>
-                            <li>
+                            </div>
+                        </li>
+                        <li>
+                            <div className='uk-padding-small'>
                                 <a className={styles.hvrPulseGrow} href="#contact" rel="noopener noreferrer" data-uk-scroll>
                                     <img src='icons/mail.png' width="30px" height="30px" />
                                 </a>
-                            </li>
-                        </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </nav>
