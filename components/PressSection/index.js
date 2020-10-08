@@ -12,7 +12,7 @@ export default function PressSection() {
         <Card description="La Mañana" href="documents\LaManyana.pdf" id="laManyana" src="pressImages\laManyanaImage.jpg" width="200px"/>
       </div>
       <div className="uk-padding uk-padding-remove-vertical" data-uk-scrollspy="cls:uk-animation-slide-top-medium; delay: 250; repeat: true">
-        <Card description="Segre: Lectura" href="documents\SegreLectura.pdf#page=30" id="Segre" src="pressImages\segreImage.jpg" width="200px"/>
+        <Card description="Lectura (diari Segre)" href="documents\SegreLectura.pdf#page=30" id="Segre" src="pressImages\segreImage.jpg" width="200px"/>
       </div>
     </div>
     <div className="uk-hidden@s uk-padding uk-padding-remove-vertical uk-flex uk-flex-column">
