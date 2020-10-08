@@ -9,7 +9,7 @@ export default function Card({
     return <div className="uk-card uk-card-default uk-box-shadow-hover-large" tabIndex="0">
             <a href={href} data-caption={description} target="blank" rel="noopener noreferrer">
                 <div id={id} className="uk-text-center uk-transition-toggle">
-                    <img width={width} src={src} />
+                    <img width={width} src={src} alt={description} />
                     <div className="uk-transition-slide-bottom-small uk-overlay uk-overlay-primary uk-light uk-position-bottom">
                         <p>{description}</p>
                     </div>
