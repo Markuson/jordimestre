@@ -4,6 +4,7 @@ import VideoSection from '../components/VideoSection'
 import ProjectSection from '../components/ProjectSection'
 import ContactSection from '../components/ContactSection'
 import PressSection from '../components/PressSection'
+import TeamSection from '../components/TeamSection'
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
         </section>
         <section className="videoSection" id="videos">
           <VideoSection />
+        </section>
+        <section className="teamSection" id="team">
+          <TeamSection />
         </section>
         <section className="pressSection" id="press">
           <PressSection />
