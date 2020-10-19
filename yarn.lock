@@ -3855,6 +3855,13 @@ randomfill@^1.0.3:
     randombytes "^2.0.5"
     safe-buffer "^5.1.0"
 
+react-alice-carousel@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-alice-carousel/-/react-alice-carousel-2.0.1.tgz#3da18b5ed07ace490be675d6265aa197aacc92c2"
+  integrity sha512-1Jb4CYEpQqe2dO/deHpUpqI05nuEdpfnhkC/p0cze799GqQ19kfZjgSPJv/sbE3tarisBNtaKQB56INdMwBpxg==
+  dependencies:
+    vanilla-swipe "^2.2.0"
+
 react-dom@16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
@@ -4697,6 +4704,11 @@ util@^0.11.0:
   integrity sha512-HShAsny+zS2TZfaXxD9tYj4HQGlBezXZMZuM/S5PKLLoZkShZiGk9o5CzukI1LVHZvjdvZ2Sj1aW/Ndn2NB/HQ==
   dependencies:
     inherits "2.0.3"
+
+vanilla-swipe@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/vanilla-swipe/-/vanilla-swipe-2.2.0.tgz#65c2c91f91af61de6aecfc4dfec662841f5f15b7"
+  integrity sha512-iNXEIpPTe2KMOzHyi0lKP9rSSHry+SoHAc0aBHH4xcJBjKX5cnw6DcxgT3OoWsqxHQ6O1wmG4PAG9BOzzR5jGQ==
 
 vm-browserify@1.1.2, vm-browserify@^1.0.1:
   version "1.1.2"
