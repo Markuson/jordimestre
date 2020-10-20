@@ -1,8 +1,11 @@
 @import '../node_modules/uikit/dist/css/uikit.min.css';
+@import '../node_modules/react-alice-carousel/lib/alice-carousel.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&display=swap');
+@import '../node_modules/react-toastify/dist/ReactToastify.css';
 
 html,
 body {
+  scroll-behavior: smooth;
   padding: 0;
   margin: 0;
   font-family:  'Poppins', sans-serif;
@@ -41,18 +44,23 @@ main {
   background-color: whitesmoke;
 }
 
+.teamSection {
+  width: 100%;
+  background-color: white;
+}
+
 .pressSection {
   width: 100%;
   min-height: 30rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 .contactSection {
   width: 100%;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .navbar {
