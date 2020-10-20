@@ -2,12 +2,6 @@ import styles from '../../styles/styles.module.css'
 
 export default function Navbar() {
 
-    const navbarStyles = () => {
-        return {
-            zIndex: "1000"
-        }
-    }
-
     return <div className="uk-visible@m">
         <div data-uk-sticky="sel-target: .uk-navbar-container;  top: .uk-navbar-container; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up; cls-inactive: uk-navbar-transparent; cls-active: navbar">
             <nav id="navbar" className="uk-width-1-1 uk-navbar-container uk-dark uk-position-top uk-position-z-index" data-uk-navbar data-uk-scrollspy="cls:uk-animation-fade ">

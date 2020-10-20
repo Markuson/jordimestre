@@ -8,7 +8,7 @@ export default function Header() {
   const childrenRef = useRef(null)
   const parentRef = useRef(null)
 
-  const totalImages = 20
+  const totalImages = 19
 
   useEffect(() => {
     let childrenHeight = 0
@@ -59,7 +59,6 @@ export default function Header() {
       <img className="uk-animation-fade" hidden={imageIndex == 17 ? false : true} id="image17" src="images\foto17.jpg" alt="Soul Mountain project" />
       <img className="uk-animation-fade" hidden={imageIndex == 18 ? false : true} id="image18" src="images\foto18.jpg" alt="Soul Mountain project" />
       <img className="uk-animation-fade" hidden={imageIndex == 19 ? false : true} id="image19" src="images\foto19.jpg" alt="Soul Mountain project" />
-      <img className="uk-animation-fade" hidden={imageIndex == 20 ? false : true} id="image20" src="images\foto20.jpeg" alt="Soul Mountain project" />
     </div>
     <div className="uk-hidden@m uk-flex uk-fex-center" data-uk-scrollspy="cls:uk-animation-fade; delay:150;">
       <div className="uk-width-1-1 uk-text-center">
