@@ -1,12 +1,61 @@
+import { ToastContainer, toast } from 'react-toastify';
 import styles from '../styles/styles.module.css'
+
+import logic from '../logic/app'
+
 import Header from '../components/Header'
 import VideoSection from '../components/VideoSection'
 import ProjectSection from '../components/ProjectSection'
 import ContactSection from '../components/ContactSection'
 import PressSection from '../components/PressSection'
 import TeamSection from '../components/TeamSection'
+import FooterSection from '../components/FooterSection';
 
 export default function Home() {
+
+  const handleSendContactForm = async (email, subject, text) => {
+    try {
+      const response = await logic.sendEmail(email, subject, text)
+      if (response.status === 'OK') {
+        toast.dark('Email sent, we will reply you as soon as possible', {
+          position: "bottom-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          });
+          window.scrollTo(0, 0)
+          return 'done'
+      }else{
+        toast.error('sorry, an error has occurred. Try again or send an email to soulmountain.jordi@gmail.com', {
+          position: "bottom-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          });
+          return 'errors'
+      }
+
+    } catch (error) {
+      toast.error(error.message, {
+        position: "bottom-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
+      return 'errors'
+    }
+
+  }
+
   return (
     <div className={styles.container}>
       <main>
@@ -24,15 +73,14 @@ export default function Home() {
           <PressSection />
         </section>
         <section className="contactSection" id="contact">
-          <ContactSection />
+          <ContactSection onContactFrom={handleSendContactForm} />
         </section>
       </main>
 
       <footer className={styles.footer}>
-        <p>
-          footer
-        </p>
+        <FooterSection />
       </footer>
+      <ToastContainer />
     </div>
   )
 }
