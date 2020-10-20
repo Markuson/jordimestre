@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start -p $PORT",
     "test": "mocha ./logic/*.test.js --runInBand --timeout 40000",
-    "test:debug": "mocha debug ./src/**/*.test.js --runInBand"
+    "test:debug": "mocha debug ./src/**/*.test.js --runInBand",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "axios": "^0.20.0",
