@@ -1,14 +1,13 @@
 
 # Soul Mountain Project:
 
-
 This is the code for the web [www.soulmountain.cat](https://soulmountain.herokuapp.com).
 
 In this moment is in production stage.
 
 This project is made using [Next.js](https://nextjs.org/).
 
-for more info about it contact [Marc Usón](mailto:info@marcuson.dev)
+for more info about it contact [info@marcuson.dev](mailto:info@marcuson.dev)
 
 ## The project:
 
