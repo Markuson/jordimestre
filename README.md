@@ -1,30 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Soul Mountain Project:
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+This is the code for the web [www.soulmountain.cat](https://soulmountain.herokuapp.com).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+In this moment is in production stage.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+This project is made using [Next.js](https://nextjs.org/).
 
-## Learn More
+for more info about it contact [Marc Usón](mailto:info@marcuson.dev)
 
-To learn more about Next.js, take a look at the following resources:
+## The project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Soul Mountain is a project that blends music and mountaineering together, two disciplines that at first sight may not seem related at all.
+However, this is not the case for Jordi Mestre, who has always seen a deep connection between the two, creating his most personal project to
+date thanks to this idea.
+The search for a way to unite these two passions is what brought this Lleida-based musician to create a project that will allow him to play and
+record his compositions on top of his favourite summits in different times of the year, capturing the whole process on video in order to mix the
+sounds with breathtaking images that will bear witness to it.
+Jordi has crafted several instrumental pieces dedicated to these mountains, completing what he defines as the epitome of his artistic expression,
+seeing as mountaineering and mountain skiing have always been forms of art to him.
+Soul Mountain is a unique, original and unprecedented project, since there are no records of anyone ever doing anything like it with an electric
+guitar.
+Its goal is to produce a series of videos featuring self-composed songs using electric or acoustic guitars depending on the mountain they’re
+located in.
