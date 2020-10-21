@@ -16,7 +16,7 @@ export default function TeamSection() {
             <h3 className="uk-margin-remove-vertical">
               Jordi Mestre 
             </h3>
-            <span className="uk-padding-small uk-padding-remove-vertical uk-text-muted"> (music & original idea)</span>
+            <span className="uk-padding-small uk-padding-remove-vertical uk-text-center uk-text-muted"> (music & original idea)</span>
           </div>
           <p className="uk-margin-medium-bottom uk-text-justify">
             Jordi Mestre is a musician that honed his skills at ESEM - Taller de Músics de Barcelona. He is part of several well-known musical projects in the
@@ -30,7 +30,7 @@ export default function TeamSection() {
             <h3 className="uk-margin-remove-vertical">
               Roger López de Haro
             </h3>
-            <span className="uk-padding-small uk-padding-remove-vertical uk-text-muted">(mountain guide)</span>
+            <span className="uk-padding-small uk-padding-remove-vertical uk-text-center uk-text-muted">(mountain guide)</span>
           </div>
           <p className="uk-margin-medium-bottom uk-text-justify">
             Roger is a widely respected figure in the mountaineering world. His passion and dedication to rocks, ice and snow included him in one of the first
@@ -43,7 +43,7 @@ export default function TeamSection() {
               Jordi Rulló
             </a>
           </h3>
-            <span className="uk-padding-small uk-padding-remove-vertical uk-text-muted">(audiovisual producer)</span>
+            <span className="uk-padding-small uk-padding-remove-vertical uk-text-center uk-text-muted">(audiovisual producer)</span>
 
           </div>
           <p className="uk-text-justify">
