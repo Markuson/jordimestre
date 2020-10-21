@@ -83,8 +83,9 @@ main {
 }
 
 .navbarTransparent {
-margin: auto;
+  margin: auto;
   max-width: 1920px;
+  height: 10rem;
 
 }
 
