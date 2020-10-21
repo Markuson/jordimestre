@@ -3,8 +3,8 @@ import styles from '../../styles/styles.module.css'
 export default function Navbar() {
 
     return <div className="uk-visible@l">
-        <div data-uk-sticky="sel-target: .uk-navbar-container;  top: .uk-navbar-container; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up; cls-inactive: uk-navbar-transparent; cls-active: navbar">
-            <nav id="navbar" className="uk-width-1-1 uk-navbar-container uk-dark uk-position-top uk-position-z-index" data-uk-navbar data-uk-scrollspy="cls:uk-animation-fade ">
+        <div data-uk-sticky="sel-target: .uk-navbar-container;  top: .uk-navbar-container; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up; cls-inactive: uk-navbar-transparent navbarTransparent; cls-active: navbar">
+            <nav id="navbar" className="uk-navbar-container uk-dark uk-position-top uk-position-z-index" data-uk-navbar data-uk-scrollspy="cls:uk-animation-fade ">
                 <div className="uk-navbar-left uk-padding-small">
                     <div className="uk-padding uk-padding-remove-vertical">
                         <img className="logo" src='logo.png' alt="soulmountain" width="200px" height="100px" />
