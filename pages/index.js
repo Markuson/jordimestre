@@ -10,6 +10,7 @@ import ContactSection from '../components/ContactSection'
 import PressSection from '../components/PressSection'
 import TeamSection from '../components/TeamSection'
 import FooterSection from '../components/FooterSection';
+import SponsorshipSection from '../components/SponsorshipSection';
 
 export default function Home() {
 
@@ -71,6 +72,9 @@ export default function Home() {
         </section>
         <section className="pressSection" id="press">
           <PressSection />
+        </section>
+        <section className="sponsorshipSection" id="sponsorship">
+          <SponsorshipSection />
         </section>
         <section className="contactSection" id="contact">
           <ContactSection onContactFrom={handleSendContactForm} />

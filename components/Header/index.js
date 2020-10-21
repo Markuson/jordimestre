@@ -60,12 +60,12 @@ export default function Header() {
       <img className="uk-animation-fade" hidden={imageIndex == 18 ? false : true} id="image18" src="images\foto18.jpg" alt="Soul Mountain project" />
       <img className="uk-animation-fade" hidden={imageIndex == 19 ? false : true} id="image19" src="images\foto19.jpg" alt="Soul Mountain project" />
     </div>
-    <div className="uk-hidden@m uk-flex uk-fex-center" data-uk-scrollspy="cls:uk-animation-fade; delay:150;">
+    <div className="uk-hidden@l uk-flex uk-fex-center" data-uk-scrollspy="cls:uk-animation-fade; delay:150;">
       <div className="uk-width-1-1 uk-text-center">
         <img className="logo" src='logo.png' alt="soulmountain" width="490px" />
       </div>
     </div>
-    <div className="uk-hidden@m uk-flex uk-flex-center" data-uk-scrollspy="cls:uk-animation-scale-up; delay:250;">
+    <div className="uk-hidden@l uk-flex uk-flex-center" data-uk-scrollspy="cls:uk-animation-scale-up; delay:250;">
       <div className='uk-padding uk-padding-remove-vertical'>
         <a target="_blank" href="https://www.instagram.com/jordi_mestre_lopez/" rel="noopener noreferrer">
           <img src='icons/instagram.png' width="30px" alt="instagram" />
