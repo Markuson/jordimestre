@@ -50,10 +50,10 @@ export default function Navbar() {
 
         <div data-uk-sticky="sel-target: .navbarSmall;  top: .navbarBig; bottom: #sticky-on-scroll-up; cls-inactive: uk-hidden; cls-active: navbar">
             <nav id="navbarSmall" className="navbarSmall uk-navbar-container uk-dark uk-position-top uk-position-z-index" data-uk-navbar data-uk-scrollspy="cls:uk-animation-slide-top ">
-                <div className="uk-navbar-left uk-padding-small">
-                    <div className="uk-padding uk-padding-remove-vertical">
+                <div className="uk-navbar-left">
+                    <div className="uk-padding-small uk-padding-remove-vertical">
                         <a  href="#top" rel="noopener noreferrer" data-uk-scroll>
-                            <img className="logo" src='logo.png' alt="soulmountain" width='200px' />
+                            <img className="logo" src='logo.png' alt="soulmountain" width='180px' />
                         </a>
                     </div>
                 </div>
