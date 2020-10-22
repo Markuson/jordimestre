@@ -5,7 +5,7 @@ export default function GallerySection() {
     <div className="uk-padding uk-padding-remove-bottom uk-width-1-1" data-uk-scrollspy="cls:uk-animation-scale-up; delay:250; repeat: true">
       <h1 className="uk-padding-small uk-padding-remove-top uk-heading-line uk-text-center"><span>Gallery</span></h1>
     </div>
-    <div className="uk-padding uk-padding-remove-top">
+    <div className="uk-padding uk-padding-remove-vertical">
       <div data-uk-slideshow="animation: push; autoplay: true">
         <div className="uk-position-relative uk-visible-toggle uk-light" tabIndex="-1">
 
@@ -61,7 +61,7 @@ export default function GallerySection() {
           <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-next data-uk-slideshow-item="next"></a>
 
         </div>
-        <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+        <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin uk-visible@s"></ul>
       </div>
     </div>
   </div>
