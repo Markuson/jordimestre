@@ -52,7 +52,7 @@ export default function Navbar() {
             <nav id="navbarSmall" className="navbarSmall uk-navbar-container uk-dark uk-position-top uk-position-z-index" data-uk-navbar data-uk-scrollspy="cls:uk-animation-slide-top ">
                 <div className="uk-navbar-left uk-padding-small">
                     <div className="uk-padding uk-padding-remove-vertical">
-                        <a>
+                        <a  href="#top" rel="noopener noreferrer" data-uk-scroll>
                             <img className="logo" src='logo.png' alt="soulmountain" width='200px' />
                         </a>
                     </div>

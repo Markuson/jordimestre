@@ -11,6 +11,7 @@ import PressSection from '../components/PressSection'
 import TeamSection from '../components/TeamSection'
 import FooterSection from '../components/FooterSection';
 import SponsorshipSection from '../components/SponsorshipSection';
+import GallerySection from '../components/GallerySection';
 
 export default function Home() {
 
@@ -69,6 +70,9 @@ export default function Home() {
         </section>
         <section className="teamSection" id="team">
           <TeamSection />
+        </section>
+        <section className="gallerySection" id="gallery">
+          <GallerySection />
         </section>
         <section className="pressSection" id="press">
           <PressSection />
