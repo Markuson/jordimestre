@@ -1,5 +1,9 @@
+import { language } from 'googleapis/build/src/apis/language'
+import { useContext } from 'react'
 
 export default function ProjectSection() {
+
+  const lang = useContext(lang)
 
 
   return <div className="uk-padding uk-flex uk-flex-column uk-width-1-1">
