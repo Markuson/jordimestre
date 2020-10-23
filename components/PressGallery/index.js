@@ -13,6 +13,7 @@ const items = [
     <PressImage onDragStart={handleDragStart} description="Enderrock" href="http://www.enderrock.cat/noticies/etiqueta/Jordi+Mestre" id="Enderrock" src="pressImages\enderrock.png" width="280px" height="280px" />,
     <PressImage onDragStart={handleDragStart} description="Territoris.cat" href="https://www.territoris.cat/articulo/la-panoramica/jordi-mestre/20200807093609066749.html" id="TerritorisCat" src="pressImages\territoris.png" width="280px" height="280px" />,
     <PressImage onDragStart={handleDragStart} description="Nacio Muntanya" href="https://www.naciodigital.cat/naciomuntanya/noticia/6336/jordi-mestre-convertim-cim-mes-3000-metres-estudi-gravacio" id="NacioMuntanya" src="pressImages\nacioMuntanya.png" width="280px" height="280px" />,
+    <PressImage onDragStart={handleDragStart} description="Federacio de entitats escursionistes" href="https://www.feec.cat/actualitat/noticies/musica-i-muntanya-es-fusionen-a-soul-mountain/" id="Feec" src="pressImages\feec.png" width="280px" height="280px" />,
 ];
 
 const itemsMobile = [
@@ -24,6 +25,7 @@ const itemsMobile = [
     <PressImage onDragStart={handleDragStart} description="Enderrock" href="http://www.enderrock.cat/noticies/etiqueta/Jordi+Mestre" id="Enderrock" src="pressImages\enderrock.png" width="135px" height="135px" />,
     <PressImage onDragStart={handleDragStart} description="Territoris.cat" href="https://www.territoris.cat/articulo/la-panoramica/jordi-mestre/20200807093609066749.html" id="TerritorisCat" src="pressImages\territoris.png" width="135px" height="135px" />,
     <PressImage onDragStart={handleDragStart} description="Nacio Muntanya" href="https://www.naciodigital.cat/naciomuntanya/noticia/6336/jordi-mestre-convertim-cim-mes-3000-metres-estudi-gravacio" id="NacioMuntanya" src="pressImages\nacioMuntanya.png" width="135px" height="135px" />,
+    <PressImage onDragStart={handleDragStart} description="Federacio de entitats escursionistes" href="https://www.feec.cat/actualitat/noticies/musica-i-muntanya-es-fusionen-a-soul-mountain/" id="Feec" src="pressImages\feec.png" width="135px" height="135px" />,
 ];
 
 export default function PressGallery() {
