@@ -7,9 +7,6 @@ export default function FooterSection() {
         <img id="mestre" src="sponsors\mestre.png" alt="mestre" width="120px"/>
       </div>
       <div className="uk-padding uk-padding-remove-bottom">
-        <img id="marmot" src="sponsors\marmot.png" alt="marmot" width="120px"/>
-      </div>
-      <div className="uk-padding uk-padding-remove-bottom">
         <img id="harmony" src="sponsors\harmony.png" alt="harmony guitars" width="120px"/>
       </div>
       <div className="uk-padding uk-padding-remove-bottom">
@@ -19,9 +16,6 @@ export default function FooterSection() {
     <div className="uk-hidden@s uk-flex uk-flex-center uk-width-1-1">
       <div className="uk-padding-small uk-padding-remove-bottom">
         <img id="mestre" src="sponsors\mestre.png" alt="mestre" width="120px"/>
-      </div>
-      <div className="uk-padding-small uk-padding-remove-bottom">
-        <img id="marmot" src="sponsors\marmot.png" alt="marmot" width="120px"/>
       </div>
       <div className="uk-padding-small uk-padding-remove-bottom">
         <img id="harmony" src="sponsors\harmony.png" alt="harmony guitars" width="120px"/>
