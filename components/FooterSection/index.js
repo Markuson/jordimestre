@@ -2,7 +2,7 @@ export default function FooterSection() {
 
 
   return <div className="uk-flex uk-flex-column uk-width-1-1">
-    <div className="uk-visible@s uk-flex uk-flex-center uk-width-1-1">
+    <div className="uk-visible@s uk-flex uk-flex-center uk-flex-middle uk-width-1-1">
       <div className="uk-padding uk-padding-remove-bottom">
         <img id="mestre" src="sponsors\mestre.png" alt="mestre" width="120px"/>
       </div>
@@ -11,9 +11,12 @@ export default function FooterSection() {
       </div>
       <div className="uk-padding uk-padding-remove-bottom">
         <img id="mono" src="sponsors\mono.png" alt="mono" width="120px"/>
+      </div>
+      <div className="uk-padding uk-padding-remove-bottom">
+        <img id="aralleida" src="sponsors\aralleida.png" alt="ara lleida" width="80px"/>
       </div>
     </div>
-    <div className="uk-hidden@s uk-flex uk-flex-center uk-width-1-1">
+    <div className="uk-hidden@s uk-flex uk-flex-center uk-flex-middle  uk-width-1-1">
       <div className="uk-padding-small uk-padding-remove-bottom">
         <img id="mestre" src="sponsors\mestre.png" alt="mestre" width="120px"/>
       </div>
@@ -22,6 +25,9 @@ export default function FooterSection() {
       </div>
       <div className="uk-padding-small uk-padding-remove-bottom">
         <img id="mono" src="sponsors\mono.png" alt="mono" width="120px"/>
+      </div>
+      <div className="uk-padding-small uk-padding-remove-bottom">
+        <img id="aralleida" src="sponsors\aralleida.png" alt="ara lleida" width="80px"/>
       </div>
     </div>
     <hr/>
