@@ -2,32 +2,32 @@ export default function FooterSection() {
 
 
   return <div className="uk-flex uk-flex-column uk-width-1-1">
-    <div className="uk-visible@s uk-flex uk-flex-center uk-width-1-1">
+    <div className="uk-visible@s uk-flex uk-flex-center uk-flex-middle uk-width-1-1">
       <div className="uk-padding uk-padding-remove-bottom">
         <img id="mestre" src="sponsors\mestre.png" alt="mestre" width="120px"/>
-      </div>
-      <div className="uk-padding uk-padding-remove-bottom">
-        <img id="marmot" src="sponsors\marmot.png" alt="marmot" width="120px"/>
       </div>
       <div className="uk-padding uk-padding-remove-bottom">
         <img id="harmony" src="sponsors\harmony.png" alt="harmony guitars" width="120px"/>
       </div>
       <div className="uk-padding uk-padding-remove-bottom">
         <img id="mono" src="sponsors\mono.png" alt="mono" width="120px"/>
+      </div>
+      <div className="uk-padding uk-padding-remove-bottom">
+        <img id="aralleida" src="sponsors\aralleida.png" alt="ara lleida" width="180px"/>
       </div>
     </div>
-    <div className="uk-hidden@s uk-flex uk-flex-center uk-width-1-1">
+    <div className="uk-hidden@s uk-flex uk-flex-center uk-flex-middle  uk-width-1-1">
       <div className="uk-padding-small uk-padding-remove-bottom">
         <img id="mestre" src="sponsors\mestre.png" alt="mestre" width="120px"/>
-      </div>
-      <div className="uk-padding-small uk-padding-remove-bottom">
-        <img id="marmot" src="sponsors\marmot.png" alt="marmot" width="120px"/>
       </div>
       <div className="uk-padding-small uk-padding-remove-bottom">
         <img id="harmony" src="sponsors\harmony.png" alt="harmony guitars" width="120px"/>
       </div>
       <div className="uk-padding-small uk-padding-remove-bottom">
         <img id="mono" src="sponsors\mono.png" alt="mono" width="120px"/>
+      </div>
+      <div className="uk-padding-small uk-padding-remove-bottom">
+        <img id="aralleida" src="sponsors\aralleida.png" alt="ara lleida" width="180px"/>
       </div>
     </div>
     <hr/>
