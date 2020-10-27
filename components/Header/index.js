@@ -1,25 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
 import Navbar from '../Navbar'
+import LanguageSelect from '../LanguageSelect'
 
-export default function Header() {
+export default function Header({ onLanguageChange, language }) {
 
   const [imageIndex, setImageIndex] = useState(0)
 
-  const childrenRef = useRef(null)
-  const parentRef = useRef(null)
-
   const totalImages = 4
-
-  useEffect(() => {
-    let childrenHeight = 0
-    if (childrenRef.current) {
-      childrenHeight = childrenRef.current.offsetHeight;
-    }
-    if (parentRef.current) {
-      parentRef.current.offsetHeight = childrenHeight
-    }
-
-  }, [childrenRef]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -37,8 +24,8 @@ export default function Header() {
   }, [imageIndex])
 
   return <div >
-    <Navbar />
-    <div ref={childrenRef}>
+    <Navbar onLanguageChange={onLanguageChange} language={language} />
+    <div >
       <img className="uk-animation-fade" hidden={imageIndex == 0 ? false : true} id="slide0" src="images\slide0.jpg" alt="Soul Mountain project" />
       <img className="uk-animation-fade" hidden={imageIndex == 1 ? false : true} id="slide1" src="images\slide1.jpg" alt="Soul Mountain project" />
       <img className="uk-animation-fade" hidden={imageIndex == 2 ? false : true} id="slide2" src="images\slide2.jpg" alt="Soul Mountain project" />
@@ -65,6 +52,12 @@ export default function Header() {
         <a href="#contact" rel="noopener noreferrer" data-uk-scroll>
           <img src='icons/mail.png' width="30px" alt="contactMe" />
         </a>
+      </div>
+    </div>
+    <div className="uk-hidden@l uk-flex uk-fex-center logoMobile" >
+      <div className="uk-padding uk-padding-remove-bottom uk-width-1-1 uk-text-center">
+        <LanguageSelect language={language} onLanguageChange={onLanguageChange} />
+
       </div>
     </div>
   </div>

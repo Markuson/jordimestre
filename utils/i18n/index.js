@@ -1,9 +1,9 @@
 const i18n = {
     set language(lang) {
-        localStorage.lang = lang
+        sessionStorage.lang = lang
     },
 
     get language() {
-        return localStorage.lang || 'en'
+        return sessionStorage.lang || 'en'
     }
 }

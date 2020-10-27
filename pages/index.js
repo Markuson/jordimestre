@@ -1,10 +1,9 @@
 import { useEffect, useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
+import i18n from '../utils/i18n'
 import styles from '../styles/styles.module.css'
 
 import logic from '../logic/app'
-
-import { Context } from '../components/Context';
 
 import Header from '../components/Header'
 import VideoSection from '../components/VideoSection'
@@ -18,18 +17,34 @@ import GallerySection from '../components/GallerySection';
 
 export default function Home() {
 
-  const [lang, setLanguage] = useState('en')
+  const [language, setLanguage] = useState(null)
+
 
   useEffect(() => {
-    const _lang = window.navigator.language.slice(0, 2)
-    console.log(_lang)
-    if (_lang == 'ca' || _lang == 'ca'){
-      setLanguage(_lang)
+    console.log(i18n.language)
+    if (!i18n.language){
+      const _lang = window.navigator.language.slice(0, 2)
+      if (_lang == 'ca' || _lang == 'es') {
+        i18n.language=_lang
+        setLanguage(_lang)
+      } else {
+        i18n.language='en'
+        setLanguage('en')
+      }
     }else{
+      setLanguage(i18n.language)
+    }
+  }, [])
+
+  const handleLanguageChange = (_language) => {
+    if (_language == 'ca' || _language == 'es') {
+      i18n.language=_language
+      setLanguage(_language)
+    } else {
+      i18n.language='en'
       setLanguage('en')
     }
-    console.log(lang)
-  }, [lang])
+  }
 
   const handleSendContactForm = async (email, subject, text) => {
     try {
@@ -74,43 +89,40 @@ export default function Home() {
 
   }
 
-  const api = {
-    lang
-  };
 
-  return (
-    <div className={styles.container}>
-      <Context.Provider value={api}>
+  return <>
+    { language &&
+      <div className={styles.container}>
         <main>
-          <Header />
+          <Header onLanguageChange={handleLanguageChange} language={language}/>
           <section className="projectSection" id="project">
-            <ProjectSection />
+            <ProjectSection language={language} />
           </section>
           <section className="videoSection" id="videos">
-            <VideoSection />
+            <VideoSection language={language} />
           </section>
           <section className="teamSection" id="team">
-            <TeamSection />
+            <TeamSection language={language} />
           </section>
           <section className="gallerySection" id="gallery">
-            <GallerySection />
+            <GallerySection language={language} />
           </section>
           <section className="pressSection" id="press">
-            <PressSection />
+            <PressSection language={language} />
           </section>
           <section className="sponsorshipSection" id="sponsorship">
-            <SponsorshipSection />
+            <SponsorshipSection language={language} />
           </section>
           <section className="contactSection" id="contact">
-            <ContactSection onContactFrom={handleSendContactForm} />
+            <ContactSection language={language} onContactFrom={handleSendContactForm} />
           </section>
         </main>
 
         <footer className={styles.footer}>
-          <FooterSection />
+          <FooterSection language={language} />
         </footer>
         <ToastContainer />
-      </Context.Provider>
-    </div>
-  )
+      </div>
+    }
+  </>
 }
