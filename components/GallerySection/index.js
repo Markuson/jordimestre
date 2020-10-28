@@ -1,5 +1,8 @@
+import literals from './literals'
 
-export default function GallerySection() {
+export default function GallerySection({ language }) {
+
+  const { title } = literals[language]
 
   const handleGalleryWidth = () => {
     return {
@@ -9,7 +12,7 @@ export default function GallerySection() {
 
   return <div className="uk-padding uk-padding-remove-horizontal uk-flex uk-flex-center uk-flex-column uk-width-1-1">
     <div className="uk-padding uk-padding-remove-bottom uk-width-1-1" data-uk-scrollspy="cls:uk-animation-scale-up; delay:250; repeat: true">
-      <h1 className="uk-padding-small uk-padding-remove-top uk-heading-line uk-text-center"><span>Gallery</span></h1>
+      <h1 className="uk-padding-small uk-padding-remove-top uk-heading-line uk-text-center"><span>{title}</span></h1>
     </div>
     <div className="uk-flex uk-flex-center uk-padding uk-padding-remove-top">
       <div style={handleGalleryWidth()}>
