@@ -21,7 +21,6 @@ export default function Home() {
 
 
   useEffect(() => {
-    console.log(i18n.language)
     if (!i18n.language){
       const _lang = window.navigator.language.slice(0, 2)
       if (_lang == 'ca' || _lang == 'es') {

@@ -1,3 +1,6 @@
+import {useEffect} from 'react'
+
+import ReCAPTCHA from "react-google-recaptcha";
 import literals from './literals'
 
 export default function ContactSection({ 
@@ -6,6 +9,10 @@ export default function ContactSection({
 }) {
 
   const { title, emailPlaceholder, subjectPlaceholder, messagePlaceholder, send } = literals[language]
+
+  useEffect(() => {
+    console.log(process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY)
+  }, [process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY])
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -38,6 +45,13 @@ export default function ContactSection({
 
           <div className="uk-margin">
             <textarea id="text" className="uk-textarea" rows="5" placeholder={messagePlaceholder}></textarea>
+          </div>
+          <div className="uk-flex uk-flex-center ">
+            <ReCAPTCHA
+              sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+              onChange={element => console.log(element)}
+            />
+
           </div>
           <div className="uk-margin uk-text-center">
             <button className="uk-button uk-button-default">{send}</button>
