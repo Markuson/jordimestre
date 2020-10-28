@@ -1,5 +1,4 @@
-import {useEffect} from 'react'
-
+import { useRef, useState } from 'react'
 import ReCAPTCHA from "react-google-recaptcha";
 import literals from './literals'
 
@@ -8,12 +7,19 @@ export default function ContactSection({
   onContactFrom
 }) {
 
-  const { title, emailPlaceholder, subjectPlaceholder, messagePlaceholder, send } = literals[language]
+  const { title, emailPlaceholder, subjectPlaceholder, messagePlaceholder, send, acceptRecaptcha } = literals[language]
 
-  useEffect(() => {
-    console.log(process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY)
-  }, [process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY])
+  const recaptchaRef = useRef(null);
+  const [recaptchaOK, setRecaptchaOK] = useState(false)
 
+  const handleRecaptchaOK = () => {
+    setRecaptchaOK(true)
+  }
+
+  const handleRecaptchaKO = () => {
+    setRecaptchaOK(false)
+  }
+  
   const handleSubmit = (e) => {
     e.preventDefault()
     let response = ''
@@ -26,6 +32,8 @@ export default function ContactSection({
         text.value = ""
       }
     })();
+    recaptchaRef.current.reset()
+    handleRecaptchaKO()
   }
 
   return <div className="uk-padding uk-flex uk-flex-column uk-width-1-1">
@@ -48,13 +56,17 @@ export default function ContactSection({
           </div>
           <div className="uk-flex uk-flex-center ">
             <ReCAPTCHA
+              ref={recaptchaRef}
               sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-              onChange={element => console.log(element)}
+              onChange={handleRecaptchaOK}
+              onExpired={handleRecaptchaOK}
+              onErrored={handleRecaptchaKO}
             />
 
           </div>
           <div className="uk-margin uk-text-center">
-            <button className="uk-button uk-button-default">{send}</button>
+            {recaptchaOK && <button className="uk-button uk-button-default">{send}</button>}
+            {!recaptchaOK && <button className="uk-button uk-button-default" disabled data-uk-tooltip={acceptRecaptcha}>{send}</button>}
           </div>
         </fieldset>
       </form>

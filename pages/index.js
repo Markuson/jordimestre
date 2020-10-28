@@ -5,6 +5,8 @@ import styles from '../styles/styles.module.css'
 
 import logic from '../logic/app'
 
+import literals from '../utils/toastLiterals'
+
 import Header from '../components/Header'
 import VideoSection from '../components/VideoSection'
 import ProjectSection from '../components/ProjectSection'
@@ -17,18 +19,23 @@ import GallerySection from '../components/GallerySection';
 
 export default function Home() {
 
-  const [language, setLanguage] = useState(null)
+
+  const [language, setLanguage] = useState('en')
+  const [langLiterals, setLangLiterals] = useState(literals['en'])
 
 
   useEffect(() => {
+
     if (!i18n.language){
       const _lang = window.navigator.language.slice(0, 2)
       if (_lang == 'ca' || _lang == 'es') {
         i18n.language=_lang
         setLanguage(_lang)
+        setLangLiterals(literals[_lang])
       } else {
         i18n.language='en'
         setLanguage('en')
+        setLangLiterals(literals['en'])
       }
     }else{
       setLanguage(i18n.language)
@@ -39,9 +46,11 @@ export default function Home() {
     if (_language == 'ca' || _language == 'es') {
       i18n.language=_language
       setLanguage(_language)
+      setLangLiterals(literals[_language])
     } else {
       i18n.language='en'
       setLanguage('en')
+      setLangLiterals(literals['en'])
     }
   }
 
@@ -49,7 +58,7 @@ export default function Home() {
     try {
       const response = await logic.sendEmail(email, subject, text)
       if (response.status === 'OK') {
-        toast.dark('Email sent, we will reply you as soon as possible', {
+        toast.dark(langLiterals.sendSuccess, {
           position: "bottom-center",
           autoClose: 5000,
           hideProgressBar: false,
@@ -61,7 +70,7 @@ export default function Home() {
         window.scrollTo(0, 0)
         return 'done'
       } else {
-        toast.error('sorry, an error has occurred. Try again or send an email to soulmountain.jordi@gmail.com', {
+        toast.error(langLiterals.sendError, {
           position: "bottom-center",
           autoClose: 5000,
           hideProgressBar: false,
@@ -74,7 +83,13 @@ export default function Home() {
       }
 
     } catch (error) {
-      toast.error(error.message, {
+      var _message='Uncaught error'
+      if (error.message=='e-mail not valid') _message = langLiterals.errorInvalidEmail
+      if (error.message=='email is empty') _message = langLiterals.errorEmptyMail
+      if (error.message=='subject is empty') _message = langLiterals.errorEmptySubject
+      if (error.message=='text is empty') _message = langLiterals.errorEmptyText
+      console.log(_message)
+      toast.error(_message, {
         position: "bottom-center",
         autoClose: 5000,
         hideProgressBar: false,

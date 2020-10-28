@@ -18,7 +18,7 @@ const validate = {
     email(email) {
         if (!(email == '' || email == undefined || email == null)){
             const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-            if (!re.test(String(email))) throw new FormatError(`${email} is not an e-mail`)
+            if (!re.test(String(email))) throw new FormatError(`e-mail not valid`)
         } else{
             if (email == '') throw new ValueError(`email is empty`)
             else throw new ValueError(`email is not optional`)
