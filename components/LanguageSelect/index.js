@@ -24,7 +24,7 @@ export default function LanguageSelect({language, onLanguageChange}) {
 
     return <div className="uk-inline">
         <a style={isLinkBlack()} className="uk-link-text uk-text-bold" href="#">{setLangText(language)}<img src='icons/downArrow.png' alt="down" width="30px" height="30px" /> </a>
-        <div id="dropdown" data-uk-dropdown="pos: bottom-justify">
+        <div id="dropdown" data-uk-dropdown="pos: bottom-justify; mode: click">
             <ul className="uk-nav uk-dropdown-nav">
                 <li className={isActive('ca')}><a onClick={() => onLanguageChange('ca')} data-uk-toggle="#dropdown">CAT</a></li>
                 <li className={isActive('es')}><a onClick={ () => onLanguageChange('es')} data-uk-toggle="#dropdown">ESP</a></li>

@@ -2,7 +2,7 @@ import literals from './literals'
 
 export default function TeamSection({ language }) {
 
-  const { title, jordiMestreText, jordiMestreTitle, jordiRulloText1, jordiRulloText2, jordiRulloTitle, rogerLopezText, rogerLopezTitle } = literals[language]
+  const { title, jordiMestreText1, jordiMestreText2, jordiMestreText3, jordiMestreTitle, jordiRulloText1, jordiRulloText2, jordiRulloTitle, rogerLopezText, rogerLopezTitle } = literals[language]
 
   return <div className="uk-padding uk-flex uk-flex-column uk-width-1-1">
     <div className="uk-padding uk-padding-remove-bottom uk-width-1-1" data-uk-scrollspy="cls:uk-animation-scale-up; delay: 250; repeat: true">
@@ -18,16 +18,16 @@ export default function TeamSection({ language }) {
             <h3 className="uk-margin-remove-vertical">
               Jordi Mestre
             </h3>
-<span className="uk-padding-small uk-padding-remove-vertical uk-text-center uk-text-muted">{jordiMestreTitle}</span>
+            <span className="uk-padding-small uk-padding-remove-vertical uk-text-center uk-text-muted">{jordiMestreTitle}</span>
           </div>
-          <p className="uk-margin-medium-bottom uk-text-justify">
-            {jordiMestreText}
-          </p>
+          <p className="uk-margin-remove-bottom uk-text-justify">{jordiMestreText1}</p>
+          <p className="uk-margin-remove-vertical uk-text-justify">{jordiMestreText2}</p>
+          <p className="uk-margin-remove-top uk-margin-medium-bottom uk-text-justify">{jordiMestreText3}</p>
           <div className="uk-flex-inline uk-flex-middle uk-text-middle">
             <h3 className="uk-margin-remove-vertical">
               Roger López de Haro
             </h3>
-<span className="uk-padding-small uk-padding-remove-vertical uk-text-center uk-text-muted">{rogerLopezTitle}</span>
+            <span className="uk-padding-small uk-padding-remove-vertical uk-text-center uk-text-muted">{rogerLopezTitle}</span>
           </div>
           <p className="uk-margin-medium-bottom uk-text-justify">
             {rogerLopezText}
@@ -38,7 +38,7 @@ export default function TeamSection({ language }) {
                 Jordi Rulló
             </a>
             </h3>
-<span className="uk-padding-small uk-padding-remove-vertical uk-text-center uk-text-muted">{jordiRulloTitle}</span>
+            <span className="uk-padding-small uk-padding-remove-vertical uk-text-center uk-text-muted">{jordiRulloTitle}</span>
 
           </div>
           <p className="uk-text-justify">
