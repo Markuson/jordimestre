@@ -1,18 +1,8 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useState } from 'react'
 import styles from '../../styles/styles.module.css'
+import LanguageSelect from '../LanguageSelect'
 
-export default function Navbar() {
-
-    const [isHide, setIsHide] = useState(true);
-    const [imageHeight, setImageHeight] = useState(null);
-
-
-    const hideBar = () => {
-        if (window.scrollY >= 20000) setIsHide(false)
-        else {
-
-        }
-    }
+export default function Navbar({ onLanguageChange, language }) {
 
     return <div className="uk-visible@l">
         <nav id="navbarBig" className="navbarBig uk-navbar-transparent uk-navbar-container uk-dark uk-position-top uk-position-z-index" data-uk-navbar>
@@ -23,7 +13,12 @@ export default function Navbar() {
             </div>
             <div className="uk-navbar-right uk-padding uk-padding-remove-vertical">
                 <ul className="uk-navbar-nav">
-                    <li className='uk-active'>
+                    <li>
+                        <div className='uk-padding-large uk-padding-remove-right'>
+                            <LanguageSelect language={language} onLanguageChange={onLanguageChange} />
+                        </div>
+                    </li>
+                    <li >
                         <div className='uk-padding-large uk-padding-remove-right'>
                             <a className={styles.hvrPulseGrow} target="_blank" href="https://www.instagram.com/jordi_mestre_lopez/" rel="noopener noreferrer">
                                 <img src='icons/instagram.png' alt="instagram" width="30px" height="30px" />
@@ -52,14 +47,14 @@ export default function Navbar() {
             <nav id="navbarSmall" className="navbarSmall uk-navbar-container uk-dark uk-position-top uk-position-z-index" data-uk-navbar data-uk-scrollspy="cls:uk-animation-slide-top ">
                 <div className="uk-navbar-left">
                     <div className="uk-padding-small uk-padding-remove-vertical">
-                        <a  href="#top" rel="noopener noreferrer" data-uk-scroll>
+                        <a href="#top" rel="noopener noreferrer" data-uk-scroll>
                             <img className="logo" src='logo.png' alt="soulmountain" width='180px' />
                         </a>
                     </div>
                 </div>
                 <div className="uk-navbar-right uk-padding uk-padding-remove-vertical">
                     <ul className="uk-navbar-nav">
-                        <li className='uk-active'>
+                        <li>
                             <div className='uk-padding-small'>
                                 <a className={styles.hvrPulseGrow} target="_blank" href="https://www.instagram.com/jordi_mestre_lopez/" rel="noopener noreferrer">
                                     <img src='icons/instagram.png' alt="instagram" width="30px" height="30px" />

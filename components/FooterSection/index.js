@@ -1,5 +1,8 @@
-export default function FooterSection() {
+import literals from './literals'
 
+export default function FooterSection({language}) {
+  
+  const { photosBy, webBy } = literals[language]
 
   return <div className="uk-flex uk-flex-column uk-width-1-1">
     <div className="uk-visible@s uk-flex uk-flex-center uk-flex-middle uk-width-1-1">
@@ -45,13 +48,13 @@ export default function FooterSection() {
     </div>
     <div className="uk-padding uk-padding-remove-top uk-flex uk-flex-middle uk-flex-center uk-width-1-1">
       <div className="uk-text-center">
-        <p className="uk-margin-small uk-text-small uk-text-muted">Photos by Jordi Rulló. Visit: <a className="uk-link-heading" target="_blank" href="http://jordirullo.com/" rel="noopener noreferrer">jordirullo.com</a> </p>
+        <p className="uk-margin-small uk-text-small uk-text-muted">{photosBy}<a className="uk-link-heading" target="_blank" href="http://jordirullo.com/" rel="noopener noreferrer">jordirullo.com</a> </p>
       </div>
       <div className="uk-padding-large uk-padding-remove-vertical">
         <p className="uk-margin-small uk-text-small uk-text-muted">|</p>
       </div>
       <div className="uk-text-center">
-        <p className="uk-margin-small uk-text-small uk-text-muted">Website by Marc Usón. Info: <a className="uk-link-heading" href="mailto:info@marcuson.dev" rel="noopener noreferrer">info@marcuson.dev</a></p>
+        <p className="uk-margin-small uk-text-small uk-text-muted">{webBy}<a className="uk-link-heading" href="mailto:info@marcuson.dev" rel="noopener noreferrer">info@marcuson.dev</a></p>
       </div>
     </div>
   </div>
