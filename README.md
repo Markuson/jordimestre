@@ -1,9 +1,8 @@
 
 # Soul Mountain Project:
 
-This is the code for the web [www.soulmountain.cat](https://soulmountain.herokuapp.com).
+This is the code for the web [www.soulmountain.cat](http://soulmountain.cat).
 
-In this moment is in production stage.
 
 This project is made using [Next.js](https://nextjs.org/).
 
