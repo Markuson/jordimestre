@@ -19,7 +19,7 @@ export default {
     },
     ca: {
         title: `El Projecte`,
-        text1: `Soul Mountain és un projecte que fusiona la música i l’alpinisme, a priori, dues disciplines que podem semblar bastant allunyades.`,
+        text1: `Soul Mountain és un projecte que fusiona la música i l’alpinisme, a priori, dues disciplines que poden semblar bastant allunyades.`,
         text2: `No obstant això, pel Jordi Mestre la música i la muntanya sempre han estat íntimament relacionades, i d’aquesta idea neix el seu projecte més personal.`,
         text3: `La recerca d’una forma d’unir aquestes dues grans passions és el que ha empès al músic lleidatà a idear un projecte que pugui portar-lo a interpretar i enregistrar la seva música a dalt dels seus cims preferits i en diferents èpoques de l’any, gravant-ho tot en vídeo per tal de combinar el so amb unes imatges espectaculars i d’obtenir un testimoni visual d’aquest treball.`,
         text4: `El Jordi ha dedicat vàries peces musicals de composició pròpia a aquestes muntanyes, creant una fusió que completa la seva màxima expressió artística, ja que l’alpinisme i l’esquí de muntanya sempre han estat dues formes d’art per ell.`,
