@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
   return <div>
     <Head>
       <title>Soul Mountain</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       <meta name="twitter:card" content="Soul Mountain is a project that blends music and mountaineering together." key="twcard" />
       <meta 
         name="description"
