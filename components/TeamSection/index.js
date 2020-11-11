@@ -2,7 +2,7 @@ import literals from './literals'
 
 export default function TeamSection({ language }) {
 
-  const { title, jordiMestreText1, jordiMestreText2, jordiMestreText3, jordiMestreTitle, jordiRulloText1, jordiRulloText2, jordiRulloTitle, rogerLopezText, rogerLopezTitle } = literals[language]
+  const { title, jordiMestreText1, jordiMestreText2, jordiMestreText3, jordiMestreTitle, jordiRulloText1, jordiRulloText2, jordiRulloText3, jordiRulloText4, jordiRulloTitle, rogerLopezText, rogerLopezTitle } = literals[language]
 
   return <div className="uk-padding uk-flex uk-flex-column uk-width-1-1">
     <div className="uk-padding uk-padding-remove-bottom uk-width-1-1" data-uk-scrollspy="cls:uk-animation-scale-up; delay: 250; repeat: true">
@@ -31,6 +31,7 @@ export default function TeamSection({ language }) {
           </div>
           <p className="uk-margin-medium-bottom uk-text-justify">
             {rogerLopezText}
+            <a className="uk-link-heading" target="_blank" href="https://www.instagram.com/guia.rogerlopezdeharo/" rel="noopener noreferrer"> (@guia.rogerlopezdeharo)</a>
           </p>
           <div className="uk-flex-inline uk-flex-middle uk-text-middle">
             <h3 className="uk-margin-remove-vertical">
@@ -41,8 +42,11 @@ export default function TeamSection({ language }) {
             <span className="uk-padding-small uk-padding-remove-vertical uk-text-center uk-text-muted">{jordiRulloTitle}</span>
 
           </div>
-          <p className="uk-text-justify">
-            {jordiRulloText1} <a className="uk-link-heading" target="_blank" href="http://jordirullo.com/" rel="noopener noreferrer"> jordirullo.com</a>{jordiRulloText2}
+          <p className="uk-margin-remove-bottom uk-text-justify">{jordiRulloText1}</p>
+          <p className="uk-margin-remove-vertical uk-text-justify">{jordiRulloText2}</p>
+          <p className="uk-margin-remove-top uk-text-justify">
+            {jordiRulloText3}<a className="uk-link-heading" target="_blank" href="https://www.bluecollectors.com/" rel="noopener noreferrer">Blue Collectors</a>{jordiRulloText4}
+            <a className="uk-link-heading" target="_blank" href="https://www.instagram.com/indiboix/" rel="noopener noreferrer"> (@indiboix)</a>
           </p>
         </div>
       </div>
