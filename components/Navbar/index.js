@@ -43,7 +43,7 @@ export default function Navbar({ onLanguageChange, language }) {
             </div>
         </nav>
 
-        <div data-uk-sticky="sel-target: .navbarSmall;  top: .navbarBig; bottom: #sticky-on-scroll-up; cls-inactive: uk-hidden; cls-active: navbar">
+        <div data-uk-sticky="sel-target: .navbarSmall;  top: .navbarBig; cls-inactive: uk-hidden; cls-active: navbar">
             <nav id="navbarSmall" className="navbarSmall uk-navbar-container uk-dark uk-position-top uk-position-z-index" data-uk-navbar data-uk-scrollspy="cls:uk-animation-slide-top ">
                 <div className="uk-navbar-left">
                     <div className="uk-padding-small uk-padding-remove-vertical">
