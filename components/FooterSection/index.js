@@ -10,9 +10,6 @@ export default function FooterSection({language}) {
         <img id="mestre" src="sponsors\mestre.png" alt="mestre" width="120px"/>
       </div>
       <div className="uk-padding uk-padding-remove-bottom">
-        <img id="harmony" src="sponsors\harmony.png" alt="harmony guitars" width="120px"/>
-      </div>
-      <div className="uk-padding uk-padding-remove-bottom">
         <img id="mono" src="sponsors\mono.png" alt="mono" width="120px"/>
       </div>
       <div className="uk-padding uk-padding-remove-bottom">
@@ -22,9 +19,6 @@ export default function FooterSection({language}) {
     <div className="uk-hidden@s uk-flex uk-flex-center uk-flex-middle  uk-width-1-1">
       <div className="uk-padding-small uk-padding-remove-bottom">
         <img id="mestre" src="sponsors\mestre.png" alt="mestre" width="120px"/>
-      </div>
-      <div className="uk-padding-small uk-padding-remove-bottom">
-        <img id="harmony" src="sponsors\harmony.png" alt="harmony guitars" width="120px"/>
       </div>
       <div className="uk-padding-small uk-padding-remove-bottom">
         <img id="mono" src="sponsors\mono.png" alt="mono" width="120px"/>
