@@ -5,7 +5,8 @@ export default function PressImage({
     src,
     width = 200,
     height = 400,
-    onDragStart = null
+    onDragStart = null,
+    video
 }) {
 
     const addMargin = () => {
@@ -14,7 +15,17 @@ export default function PressImage({
         }
     }
 
-    return <a href={href} data-caption={description} target="blank" rel="noopener noreferrer">
-        <img style={addMargin()} className="uk-box-shadow-large" onDragStart={onDragStart} height={height} width={width} src={src} alt={description} />
-    </a>
+    const isVideo = () => {
+        return video ?
+            <a href="#" data-caption={description} target="blank" rel="noopener noreferrer" data-uk-toggle={`target: #${href}`}>
+                <img style={addMargin()} className="uk-box-shadow-large" onDragStart={onDragStart} height={height} width={width} src={src} alt={description} />
+            </a>
+            :
+            <a href={href} data-caption={description} target="blank" rel="noopener noreferrer">
+                <img style={addMargin()} className="uk-box-shadow-large" onDragStart={onDragStart} height={height} width={width} src={src} alt={description} />
+            </a>
+        return
+    }
+
+    return isVideo();
 }
