@@ -70,13 +70,13 @@ export default function PressGallery() {
         <div id="modal-sexta" className="uk" data-uk-modal>
             <div className="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
                 <button className="uk-modal-close-default" type="button" data-uk-close></button>
-                <video src="\videos\sexta.mp4" type="video/mp4" controls playsinline data-uk-video="autoplay: inview"></video>
+                <video src="https://soulmountain.cat/videos/sexta.mp4" type="video/mp4" controls playsinline data-uk-video="autoplay: inview"></video>
             </div>
         </div>
         <div id="modal-tv3" className="" data-uk-modal>
             <div className="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
                 <button className="uk-modal-close-default" type="button" data-uk-close></button>
-                <video src="\videos\tv3.mp4" type="video/mp4" controls playsinline data-uk-video="autoplay: inview"></video>
+                <video src="https://soulmountain.cat/videos/tv3.mp4" type="video/mp4" controls playsinline data-uk-video="autoplay: inview"></video>
             </div>
         </div>
     </div>
