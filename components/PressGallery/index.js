@@ -67,16 +67,33 @@ export default function PressGallery() {
                 items={itemsMobile}
             />
         </div>
-        <div id="modal-sexta" className="uk" data-uk-modal>
-            <div className="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
-                <button className="uk-modal-close-default" type="button" data-uk-close></button>
-                <video src="https://soulmountain.cat/videos/sexta.mp4" type="video/mp4" controls playsinline data-uk-video="autoplay: inview"></video>
+        <div id="modal-sexta" className="uk-flex-top" data-uk-modal>
+            <div className="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                <button className="uk-modal-close-outside" type="button" data-uk-close></button>
+                    <iframe
+                        width="1120"
+                        height="630" 
+                        src="https://www.youtube-nocookie.com/embed/KM0OT3nUirU?rel=0&modestbranding=1&fs=0"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        data-uk-video
+                        data-uk-responsive
+                    />
             </div>
         </div>
-        <div id="modal-tv3" className="" data-uk-modal>
-            <div className="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
-                <button className="uk-modal-close-default" type="button" data-uk-close></button>
-                <video src="https://soulmountain.cat/videos/tv3.mp4" type="video/mp4" controls playsinline data-uk-video="autoplay: inview"></video>
+        <div id="modal-tv3" className="uk-flex-top" data-uk-modal>
+            <div className="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                <button className="uk-modal-close-outside" type="button" data-uk-close></button>
+                <iframe 
+                    width="1120"
+                    height="630"
+                    src="https://www.youtube-nocookie.com/embed/5F6fqTHCTdw?rel=0&modestbranding=1&fs=0&controls=0"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    data-uk-video
+                    data-uk-responsive/>
             </div>
         </div>
     </div>

@@ -1,5 +1,8 @@
 module.exports = {
-    api: {
-      externalResolver: true,
-    },
+  api: {
+    externalResolver: true,
+  },
+  devIndicators: {
+    autoPrerender: false,
+  },
 }
