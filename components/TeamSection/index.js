@@ -12,7 +12,7 @@ export default function TeamSection({ language }) {
       <div>
         <div className="uk-padding-small uk-padding-remove-horizontal" data-uk-scrollspy="cls:uk-animation-slide-right-small; delay: 250; repeat: true">
           <div className="uk-text-center uk-margin-bottom">
-            <img className="uk-animation-fade" id="team" src="images\team.jpeg" alt="Soul Mountain team" width="896px" height="597px" />
+            <img className="uk-animation-fade" id="team" src="images\team.jpg" alt="Soul Mountain team" width="896px" height="597px" />
           </div>
           <div className=" uk-margin-top uk-flex-inline uk-flex-middle uk-text-middle">
             <h3 className="uk-margin-remove-vertical">
