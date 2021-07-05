@@ -26,9 +26,9 @@ export default function Header({ onLanguageChange, language }) {
   return <div >
     <Navbar onLanguageChange={onLanguageChange} language={language} />
     <div >
-      <img className="uk-animation-fade" hidden={imageIndex == 1 ? false : true} id="slide5" src="images\Portada1.jpg" alt="Soul Mountain project" />
-      <img className="uk-animation-fade" hidden={imageIndex == 2 ? false : true} id="slide6" src="images\Portada3.jpg" alt="Soul Mountain project" />
-      <img className="uk-animation-fade" hidden={imageIndex == 3 ? false : true} id="slide7" src="images\Portada4.jpg" alt="Soul Mountain project" />
+      <img className="uk-animation-fade" hidden={imageIndex == 1 ? false : true} id="slide5" src="images\Portada_1.jpg" alt="Soul Mountain project" />
+      <img className="uk-animation-fade" hidden={imageIndex == 2 ? false : true} id="slide6" src="images\Portada_3.jpg" alt="Soul Mountain project" />
+      <img className="uk-animation-fade" hidden={imageIndex == 3 ? false : true} id="slide7" src="images\Portada_4.jpg" alt="Soul Mountain project" />
       <img className="uk-animation-fade" hidden={imageIndex == 4 ? false : true} id="slide0" src="images\slide0.jpg" alt="Soul Mountain project" />
       <img className="uk-animation-fade" hidden={imageIndex == 5 ? false : true} id="slide1" src="images\slide1.jpg" alt="Soul Mountain project" />
       <img className="uk-animation-fade" hidden={imageIndex == 6 ? false : true} id="slide2" src="images\slide2.jpg" alt="Soul Mountain project" />
