@@ -6,7 +6,7 @@ export default function Header({ onLanguageChange, language }) {
 
   const [imageIndex, setImageIndex] = useState(0)
 
-  const totalImages = 4
+  const totalImages = 7
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -26,11 +26,14 @@ export default function Header({ onLanguageChange, language }) {
   return <div >
     <Navbar onLanguageChange={onLanguageChange} language={language} />
     <div >
-      <img className="uk-animation-fade" hidden={imageIndex == 0 ? false : true} id="slide0" src="images\slide0.jpg" alt="Soul Mountain project" />
-      <img className="uk-animation-fade" hidden={imageIndex == 1 ? false : true} id="slide1" src="images\slide1.jpg" alt="Soul Mountain project" />
-      <img className="uk-animation-fade" hidden={imageIndex == 2 ? false : true} id="slide2" src="images\slide2.jpg" alt="Soul Mountain project" />
-      <img className="uk-animation-fade" hidden={imageIndex == 3 ? false : true} id="slide3" src="images\slide3.jpg" alt="Soul Mountain project" />
-      <img className="uk-animation-fade" hidden={imageIndex == 4 ? false : true} id="slide4" src="images\slide4.jpg" alt="Soul Mountain project" />
+      <img className="uk-animation-fade" hidden={imageIndex == 1 ? false : true} id="slide5" src="images\Portada1.jpg" alt="Soul Mountain project" />
+      <img className="uk-animation-fade" hidden={imageIndex == 2 ? false : true} id="slide6" src="images\Portada3.jpg" alt="Soul Mountain project" />
+      <img className="uk-animation-fade" hidden={imageIndex == 3 ? false : true} id="slide7" src="images\Portada4.jpg" alt="Soul Mountain project" />
+      <img className="uk-animation-fade" hidden={imageIndex == 4 ? false : true} id="slide0" src="images\slide0.jpg" alt="Soul Mountain project" />
+      <img className="uk-animation-fade" hidden={imageIndex == 5 ? false : true} id="slide1" src="images\slide1.jpg" alt="Soul Mountain project" />
+      <img className="uk-animation-fade" hidden={imageIndex == 6 ? false : true} id="slide2" src="images\slide2.jpg" alt="Soul Mountain project" />
+      <img className="uk-animation-fade" hidden={imageIndex == 7 ? false : true} id="slide3" src="images\slide3.jpg" alt="Soul Mountain project" />
+      <img className="uk-animation-fade" hidden={imageIndex == 8 ? false : true} id="slide4" src="images\slide4.jpg" alt="Soul Mountain project" />
     </div>
     <div className="uk-hidden@l uk-flex uk-fex-center logoMobile" >
       <div className="uk-width-1-1 uk-text-center">
