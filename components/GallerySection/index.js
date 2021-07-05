@@ -39,9 +39,6 @@ export default function GallerySection({ language }) {
                 <img id="image6_2" src="images\Foto 6.jpg" alt="Soul Mountain project" data-uk-cover />
               </li>
               <li>
-                <img id="image7_2" src="images\Foto 7.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li>
-              <li>
                 <img id="image8_2" src="images\Foto 8.jpg" alt="Soul Mountain project" data-uk-cover />
               </li>
               <li>
