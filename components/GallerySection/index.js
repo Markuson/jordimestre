@@ -20,6 +20,51 @@ export default function GallerySection({ language }) {
           <div className="uk-position-relative uk-visible-toggle uk-light" tabIndex="-1" >
 
             <ul className="uk-slideshow-items">
+            <li>
+                <img id="image1_2" src="images\Foto 1.jpg" alt="Soul Mountain project" data-uk-cover />
+              </li>
+              <li>
+                <img id="image2_2" src="images\Foto 2.jpg" alt="Soul Mountain project" data-uk-cover />
+              </li>
+              <li>
+                <img id="image3_2" src="images\Foto 3.jpg" alt="Soul Mountain project" data-uk-cover />
+              </li>
+              <li>
+                <img id="image4_2" src="images\Foto 4.jpg" alt="Soul Mountain project" data-uk-cover />
+              </li>
+              <li>
+                <img id="image5_2" src="images\Foto 5.jpg" alt="Soul Mountain project" data-uk-cover />
+              </li>
+              <li>
+                <img id="image6_2" src="images\Foto 6.jpg" alt="Soul Mountain project" data-uk-cover />
+              </li>
+              <li>
+                <img id="image7_2" src="images\Foto 7.jpg" alt="Soul Mountain project" data-uk-cover />
+              </li>
+              <li>
+                <img id="image8_2" src="images\Foto 8.jpg" alt="Soul Mountain project" data-uk-cover />
+              </li>
+              <li>
+                <img id="image9_2" src="images\Foto 9.jpg" alt="Soul Mountain project" data-uk-cover />
+              </li>
+              <li>
+                <img id="image10_2" src="images\Foto 10.jpg" alt="Soul Mountain project" data-uk-cover />
+              </li>
+              <li>
+                <img id="image11_2" src="images\Foto 11.jpg" alt="Soul Mountain project" data-uk-cover />
+              </li>
+              <li>
+                <img id="image12_2" src="images\Foto 12.jpg" alt="Soul Mountain project" data-uk-cover />
+              </li>
+              <li>
+                <img id="image13_2" src="images\Foto 13.jpg" alt="Soul Mountain project" data-uk-cover />
+              </li>
+              <li>
+                <img id="image14_2" src="images\Foto 14.jpg" alt="Soul Mountain project" data-uk-cover />
+              </li>
+              <li>
+                <img id="image15_2" src="images\Foto 15.jpg" alt="Soul Mountain project" data-uk-cover />
+              </li>
               <li>
                 <img id="image1" src="images\foto1.jpg" alt="Soul Mountain project" data-uk-cover />
               </li>
