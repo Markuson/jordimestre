@@ -11,7 +11,7 @@ export default function VideoSection({ language }) {
     </div>
     <div data-uk-scrollspy="cls:uk-animation-slide-bottom-medium; delay: 250; repeat: true">
       <div className=" uk-padding-large uk-padding-remove-horizontal uk-padding-remove-top uk-flex uk-flex-center">
-        <iframe width="896" height="504" src="https://www.youtube.com/embed/6lIk4lwdG7Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-uk-responsive></iframe>
+        <iframe width="896" height="504" src="https://www.youtube.com/embed/6lIk4lwdG7Y" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen data-uk-responsive></iframe>
       </div>
     </div>
     <div className=" uk-padding uk-padding-remove-horizontal uk-flex uk-flex-center">
