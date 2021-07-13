@@ -107,7 +107,7 @@ export default function PressGallery() {
                     src="https://www.youtube-nocookie.com/embed/SjkgexbH1rM?rel=0&modestbranding=1&fs=0&controls=0"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                     data-uk-video
                     data-uk-responsive
                 />
