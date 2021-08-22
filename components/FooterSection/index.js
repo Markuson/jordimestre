@@ -18,6 +18,9 @@ export default function FooterSection({language}) {
       <div className="uk-padding uk-padding-remove-bottom">
         <img id="cusart" src="sponsors\cusart.png" alt="cusart" width="70px"/>
       </div>
+      <div className="uk-padding uk-padding-remove-bottom">
+        <img id="cortazu" src="sponsors\cortazu.png" alt="cusart" width="70px"/>
+      </div>
     </div>
     <div className="uk-hidden@s uk-flex uk-flex-center uk-flex-middle  uk-width-1-1">
       <div className="uk-padding-small uk-padding-remove-bottom">
@@ -31,6 +34,9 @@ export default function FooterSection({language}) {
       </div>
       <div className="uk-padding-small uk-padding-remove-bottom">
         <img id="cusart" src="sponsors\cusart.png" alt="cusart" width="70px"/>
+      </div>
+      <div className="uk-padding-small uk-padding-remove-bottom">
+        <img id="cortazu" src="sponsors\cortazu.png" alt="cortazu" width="70px"/>
       </div>
     </div>
     <hr/>
