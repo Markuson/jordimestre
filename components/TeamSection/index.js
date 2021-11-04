@@ -46,7 +46,7 @@ export default function TeamSection({ language }) {
           <p className="uk-margin-remove-vertical uk-text-justify">{jordiRulloText2}</p>
           <p className="uk-margin-remove-top uk-text-justify">
             {jordiRulloText3}<a className="uk-link-heading" target="_blank" href="https://www.bluecollectors.com/" rel="noopener noreferrer">Blue Collectors</a>{jordiRulloText4}
-            <a className="uk-link-heading" target="_blank" href="https://www.instagram.com/indiboix/" rel="noopener noreferrer"> (@indiboix)</a>
+            <a className="uk-link-heading" target="_blank" href="https://www.instagram.com/jordirullo/" rel="noopener noreferrer"> (@jordirullo)</a>
           </p>
         </div>
       </div>
