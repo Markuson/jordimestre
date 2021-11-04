@@ -124,9 +124,9 @@ export default function Home() {
           <section className="pressSection" id="press">
             <PressSection language={language} />
           </section>
-          <section className="sponsorshipSection" id="sponsorship">
+          {/* <section className="sponsorshipSection" id="sponsorship">
             <SponsorshipSection language={language} />
-          </section>
+          </section> */}
           <section className="contactSection" id="contact">
             <ContactSection language={language} onContactFrom={handleSendContactForm} />
           </section>
