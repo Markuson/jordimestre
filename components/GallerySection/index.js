@@ -20,57 +20,15 @@ export default function GallerySection({ language }) {
           <div className="uk-position-relative uk-visible-toggle uk-light" tabIndex="-1" >
 
             <ul className="uk-slideshow-items">
-            <li>
-                <img id="image1_2" src="images\Foto_1.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li>
-              <li>
-                <img id="image2_2" src="images\Foto_2.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li>
-              <li>
-                <img id="image3_2" src="images\Foto_3.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li>
-              <li>
-                <img id="image4_2" src="images\Foto_4.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li>
-              <li>
-                <img id="image5_2" src="images\Foto_5.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li>
-              <li>
-                <img id="image6_2" src="images\Foto_6.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li>
-              <li>
-                <img id="image8_2" src="images\Foto_8.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li>
-              <li>
-                <img id="image9_2" src="images\Foto_9.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li>
-              <li>
-                <img id="image10_2" src="images\Foto_10.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li>
-              <li>
-                <img id="image11_2" src="images\Foto_11.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li>
-              <li>
-                <img id="image12_2" src="images\Foto_12.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li>
-              <li>
-                <img id="image13_2" src="images\Foto_13.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li>
-              <li>
-                <img id="image14_2" src="images\Foto_14.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li>
-              <li>
-                <img id="image15_2" src="images\Foto_15.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li>
               <li>
                 <img id="image1" src="images\foto1.jpg" alt="Soul Mountain project" data-uk-cover />
               </li>
-              {/* <li>
+              <li>
                 <img id="image2" src="images\foto2.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li> */}
-              {/* <li>
+              </li>
+              <li>
                 <img id="image3" src="images\foto3.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li> */}
+              </li>
               <li>
                 <img id="image4" src="images\foto4.jpg" alt="Soul Mountain project" data-uk-cover />
               </li>
@@ -80,29 +38,32 @@ export default function GallerySection({ language }) {
               <li>
                 <img id="image6" src="images\foto6.jpg" alt="Soul Mountain project" data-uk-cover />
               </li>
-              {/* <li>
+              <li>
                 <img id="image7" src="images\foto7.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li> */}
+              </li>
               <li>
                 <img id="image8" src="images\foto8.jpg" alt="Soul Mountain project" data-uk-cover />
               </li>
               <li>
                 <img id="image9" src="images\foto9.jpg" alt="Soul Mountain project" data-uk-cover />
               </li>
-              {/* <li>
+              <li>
                 <img id="image10" src="images\foto10.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li> */}
+              </li>
               <li>
                 <img id="image11" src="images\foto11.jpg" alt="Soul Mountain project" data-uk-cover />
               </li>
-              {/* <li>
+              <li>
                 <img id="image12" src="images\foto12.jpg" alt="Soul Mountain project" data-uk-cover />
               </li>
               <li>
                 <img id="image13" src="images\foto13.jpg" alt="Soul Mountain project" data-uk-cover />
-              </li> */}
+              </li>
               <li>
                 <img id="image14" src="images\foto14.jpg" alt="Soul Mountain project" data-uk-cover />
+              </li>
+              <li>
+                <img id="image15" src="images\foto15.jpg" alt="Soul Mountain project" data-uk-cover />
               </li>
             </ul>
 

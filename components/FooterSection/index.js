@@ -19,6 +19,12 @@ export default function FooterSection({language}) {
         <img id="cortazu" src="sponsors\cortazu.png" alt="cusart" width="70px"/>
       </div>
       <div className="uk-padding-small uk-padding-remove-bottom">
+        <img id="aralleida" src="sponsors\FanaticGuitars.png" alt="Fanatic Guitars" width="70px" />
+      </div>
+      <div className="uk-padding-small uk-padding-remove-bottom">
+        <img id="aralleida" src="sponsors\KJFoundation.png" alt="Kilian Jornet Foundation" width="180px" />
+      </div>
+      <div className="uk-padding-small uk-padding-remove-bottom">
         <img id="aralleida" src="sponsors\vallboi.png" alt="vall de boi" width="100px"/>
       </div>
       <div className="uk-padding uk-padding-remove-bottom">
@@ -37,6 +43,14 @@ export default function FooterSection({language}) {
       </div>
       <div className="uk-padding-small uk-padding-remove-bottom">
         <img id="cortazu" src="sponsors\cortazu.png" alt="cortazu" width="70px"/>
+      </div>
+    </div>
+    <div className="uk-hidden@s uk-flex uk-flex-center uk-flex-middle  uk-width-1-1">
+      <div className="uk-padding-small uk-padding-remove-bottom">
+        <img id="aralleida" src="sponsors\FanaticGuitars.png" alt="Fanatic Guitars" width="70px" />
+      </div>
+      <div className="uk-padding-small uk-padding-remove-bottom">
+        <img id="aralleida" src="sponsors\KJFoundation.png" alt="Kilian Jornet Foundation" width="180px" />
       </div>
       <div className="uk-padding-small uk-padding-remove-bottom">
         <img id="aralleida" src="sponsors\vallboi.png" alt="vall de boi" width="100px"/>

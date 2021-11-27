@@ -5,8 +5,10 @@ import PressImage from '../PressImage'
 const handleDragStart = (e) => e.preventDefault();
 
 const items = [
+    <PressImage onDragStart={handleDragStart} description="Fanatic Guitars blog" href="https://www.fanaticguitars.com/blog/musica-y-alpinismo-contra-el-cambio-climatico/" id="Fanablog" src="sponsors\FanaticGuitars.png" width="280px" height="280px" />,
     <PressImage onDragStart={handleDragStart} description="Monocreators blog" href="https://blog.monocreators.com/soul-mountain-music-at-the-mountain-peak/" id="Monoblog" src="pressImages\mono.png" width="280px" height="280px" />,
     <PressImage onDragStart={handleDragStart} description="Guitar Magazine" href="https://guitar.com/features/interviews/meet-the-man-who-scaled-a-3000m-mountain-with-his-guitar-just-to-record-a-song/" id="guitarmagazine" src="pressImages\guitardotcom.png" width="280px" height="280px" />,
+    <PressImage onDragStart={handleDragStart} description="La Vanguardia" href="https://www.lavanguardia.com/local/lleida/20211013/7772240/esquiar-guitarra-electrica-grabar-altura-pirineos.html" id="Lavanguadria" src="pressImages\lavanguardia.png" width="280px" height="280px" />,
     <PressImage onDragStart={handleDragStart} description="Nacio Muntanya" href="https://www.naciodigital.cat/naciomuntanya/noticia/6336/jordi-mestre-convertim-cim-mes-3000-metres-estudi-gravacio" id="NacioMuntanya" src="pressImages\nacioMuntanya.png" width="280px" height="280px" />,
     <PressImage onDragStart={handleDragStart} description="Federacio de entitats escursionistes" href="https://www.feec.cat/actualitat/noticies/musica-i-muntanya-es-fusionen-a-soul-mountain/" id="Feec" src="pressImages\feec.png" width="280px" height="280px" />,
     <PressImage onDragStart={handleDragStart} description="Enderrock" href="http://www.enderrock.cat/noticies/etiqueta/Jordi+Mestre" id="Enderrock" src="pressImages\enderrock.png" width="280px" height="280px" />,
@@ -21,8 +23,10 @@ const items = [
 ];
 
 const itemsMobile = [
+    <PressImage onDragStart={handleDragStart} description="Fanatic Guitars blog" href="https://www.fanaticguitars.com/blog/musica-y-alpinismo-contra-el-cambio-climatico/" id="Fanablog" src="sponsors\FanaticGuitars.png" width="135px" height="135px" />,
     <PressImage onDragStart={handleDragStart} description="Monocreators blog" href="https://blog.monocreators.com/soul-mountain-music-at-the-mountain-peak/" id="Monoblog" src="pressImages\mono.png" width="135px" height="135px" />,
     <PressImage onDragStart={handleDragStart} description="Guitar Magazine" href="https://guitar.com/features/interviews/meet-the-man-who-scaled-a-3000m-mountain-with-his-guitar-just-to-record-a-song/" id="guitarmagazine" src="pressImages\guitardotcom.png" width="135px" height="135px" />,
+    <PressImage onDragStart={handleDragStart} description="La Vanguardia" href="https://www.lavanguardia.com/local/lleida/20211013/7772240/esquiar-guitarra-electrica-grabar-altura-pirineos.html" id="Lavanguadria" src="pressImages\lavanguardia.png" width="135px" height="135px" />,
     <PressImage onDragStart={handleDragStart} description="Nacio Muntanya" href="https://www.naciodigital.cat/naciomuntanya/noticia/6336/jordi-mestre-convertim-cim-mes-3000-metres-estudi-gravacio" id="NacioMuntanya" src="pressImages\nacioMuntanya.png" width="135px" height="135px" />,
     <PressImage onDragStart={handleDragStart} description="Federacio de entitats escursionistes" href="https://www.feec.cat/actualitat/noticies/musica-i-muntanya-es-fusionen-a-soul-mountain/" id="Feec" src="pressImages\feec.png" width="135px" height="135px" />,
     <PressImage onDragStart={handleDragStart} description="Enderrock" href="http://www.enderrock.cat/noticies/etiqueta/Jordi+Mestre" id="Enderrock" src="pressImages\enderrock.png" width="135px" height="135px" />,
