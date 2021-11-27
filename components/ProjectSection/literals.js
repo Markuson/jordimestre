@@ -11,7 +11,11 @@ export default {
         text5: `These creations are always carried out in accordance with the high mountain environment that surrounds the project, trying to raise awareness and emphasizing on nature preservation and culture as two of the basic, necessary pillars for a better future.`,
         text6: `Soul Mountain is a unique, unprecedented project that brings self-composed song recording to summits higher than 3000 metres.`,
         text7: `In their third recording, the team climbed atop Besiberri Nord starting their ascent from the Cavallers dam, in vall de Boí. Up there, Jordi Mestre played a new composition entitled “The Change”.`,
-        text8: `This latest filming has been done trying to underscore how high mountains are one of the main life sources, as well as the need for action in order to minimize the devastating effects of climate change.`
+        text8: `This latest filming has been done trying to underscore how high mountains are one of the main life sources, as well as the need for action in order to minimize the devastating effects of climate change.`,
+        text9: `Thanks to the collaboration with the prestigious company `,
+        text91: `, once the third filming of The Soul Mountain has been released, on January 8, 2022, we will start a draw for a `,
+        text92: ` Excel Tammany acoustic guitar. All money raised will go entirely to the `,
+        text93:`, to fund projects related to preservation of nature in the high mountain environment.`
     },
     es: {
         title: `El Proyecto`,
@@ -25,7 +29,11 @@ export default {
         text5: `Estas creaciones siempre se llevan a cabo en acuerdo con el entorno de alta montaña que envuelve el proyecto, intentando concienciar y recalcar la preservación de la naturaleza y la cultura como dos de los pilares básicos necesarios para un futuro mejor.`,
         text6: `Soul Mountain es un proyecto único y sin precedentes que traslada la grabación de música de composición propia a cimas de más de 3000 metros de altura.`,
         text7: `En su tercera grabación, el equipo ha escalado la cima del Besiberri Nord, iniciando el ascenso desde la presa de Cavallers, en el valle de Boí. Una vez arriba, Jordi Mestre ha interpretado una nueva composición titulada “The Change”.`,
-        text8: `Con esta nueva filmación se pretende poner en valor la alta montaña como una de las principales fuentes de vida, así como la necesidad de actuar para minimizar los efectos devastadores del cambio climático.`
+        text8: `Con esta nueva filmación se pretende poner en valor la alta montaña como una de las principales fuentes de vida, así como la necesidad de actuar para minimizar los efectos devastadores del cambio climático.`,
+        text9: `Gracias a la colaboración con la prestigiosa empresa `,
+        text91: `, una vez estrenada la tercera entrega de The Soul Mountain, el día 8 de enero de 2022, iniciaremos un sorteo de una guitarra acústica `,
+        text92: ` Excel Tammany. Todo el dinero recaudado irá destinado íntegramente a la `,
+        text93:`, para financiar proyectos relacionados con la preservación del medio natural en el entorno de la alta montaña.`
     },
     ca: {
         title: `El Projecte`,
@@ -39,6 +47,11 @@ export default {
         text5: `Aquestes creacions sempre es duen a terme en acord amb l’entorn d’alta muntanya que envolta el projecte, intentant conscienciar i ressaltar la preservació de la natura i la cultura com dos dels pilars bàsics necessaris per un futur millor.`,
         text6: `Soul Mountain és un projecte únic i sense precedents que trasllada l’enregistrament de música de composició pròpia a cims de més de 3000 metres d’alçada.`,
         text7: `En la seva tercera gravació, l’equip ha escalat el cim del Besiberri Nord iniciant l’ascens des de la presa de Cavallers, a la vall de Boí. Un cop a dalt, el Jordi Mestre ha interpretat una nova composició titulada “The Change”.`,
-        text8: `Amb aquesta nova filmació es pretén posar en valor l’alta muntanya com una de les principals fonts de vida, així com la necessitat d’actuar per minimitzar els efectes devastadors del canvi climàtic.`
+        text8: `Amb aquesta nova filmació es pretén posar en valor l’alta muntanya com una de les principals fonts de vida, així com la necessitat d’actuar per minimitzar els efectes devastadors del canvi climàtic.`,
+        text9:`Gràcies a la col·laboració amb la prestigiosa empresa `,
+        text91:`, un cop estrenada la tercera entrega de The Soul Mountain, el dia 8 de gener de 2022, iniciarem un sorteig d'una guitarra acústica `,
+        text92: ` Excel Tammany. Tots els diners recaptats aniran destinats íntegrament a la `,
+        text93:`, per finançar projectes relacionats amb la preservació del medi natural en l'entorn de l'alta muntanya.`
+
     }
 }
