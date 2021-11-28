@@ -16,6 +16,7 @@ export default function ProjectSection({ language }) {
     text5,
     text6,
     text7,
+    text71,
     text8,
     text9,
     text91,
@@ -46,7 +47,11 @@ export default function ProjectSection({ language }) {
         </p>
         <p className=" uk-text-justify">{text5}</p>
         <p className="uk-margin-remove-vertical uk-text-justify">{text6}</p>
-        <p className="uk-text-justify">{text7}</p>
+        <p className="uk-text-justify">
+          {text7}
+          <a className="uk-link-heading uk-text-bolder" target="_blank" href="https://www.vallboi.cat" rel="noopener noreferrer">Vall de Boí</a>
+          {text71}
+        </p>
         <p className="uk-margin-remove-vertical uk-text-justify">{text8}</p>
         <p className=" uk-text-justify">
           {text9}
@@ -59,10 +64,19 @@ export default function ProjectSection({ language }) {
         </p>
         <div className="uk-padding uk-padding-remove-top uk-flex uk-flex-around uk-flex-middle">
           <div className="uk-padding-small uk-padding-remove-bottom">
-            <img id="aralleida" src="sponsors\FanaticGuitars.png" alt="Fanatic Guitars" width="200px" />
+            <a className="uk-link-reset" target="_blank" href="https://www.fanaticguitars.com/" rel="noopener noreferrer">
+              <img id="aralleida" src="sponsors\FanaticGuitars.png" alt="Fanatic Guitars" width="200px" />
+            </a>
           </div>
           <div className="uk-padding-small uk-padding-remove-bottom">
-            <img id="aralleida" src="sponsors\KJFoundation.png" alt="Kilian Jornet Foundation" width="400px" />
+            <a className="uk-link-reset" target="_blank" href="https://www.kilianjornetfoundation.org/" rel="noopener noreferrer">
+              <img id="aralleida" src="sponsors\KJFoundation.png" alt="Kilian Jornet Foundation" width="400px" />
+            </a>
+          </div>
+          <div className="uk-padding-small uk-padding-remove-bottom">
+            <a className="uk-link-reset" target="_blank" href="https://www.vallboi.cat" rel="noopener noreferrer">
+              <img id="aralleida" src="sponsors\vallboi.png" alt="Vall de Boí" width="200px" />
+            </a>
           </div>
         </div>
       </div>
