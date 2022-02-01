@@ -17,8 +17,6 @@ import FooterSection from '../components/FooterSection';
 import SponsorshipSection from '../components/SponsorshipSection';
 import GallerySection from '../components/GallerySection';
 
-import UIkit from 'uikit/dist/js/uikit.min.js'
-
 export default function Home() {
 
 
@@ -42,7 +40,6 @@ export default function Home() {
     }else{
       setLanguage(i18n.language)
     }
-    UIkit.modal("#modal-sorteig").show()
   }, [])
 
   const handleLanguageChange = (_language) => {
@@ -141,16 +138,5 @@ export default function Home() {
         <ToastContainer />
       </div>
     }
-
-    <div id="modal-sorteig" className="uk-flex-top" data-uk-modal>
-      <div className="uk-modal-dialog uk-width-auto uk-margin-auto-vertical uk-modal-container">
-        <button className="uk-modal-close-outside" type="button" data-uk-close></button>
-        <div uk-tooltip="title: Pulsa para participar.">
-          <a href={"https://www.fanaticguitars.com/blog/sorteamos-una-dangelico-tammany/"} data-caption={"pulsa para entrar al sorteo"} target="blank" rel="noopener noreferrer">
-            <img id="sorteo" src="sorteo.jpg" alt="sorteo" width="1000px" />
-          </a>
-        </div> 
-      </div>
-    </div>
   </>
 }
