@@ -53,7 +53,7 @@ export default function ProjectSection({ language }) {
           {text71}
         </p>
         <p className="uk-margin-remove-vertical uk-text-justify">{text8}</p>
-        <p className=" uk-text-justify">
+        {/* <p className=" uk-text-justify">
           {text9}
           <a className="uk-link-heading uk-text-bolder" target="_blank" href="https://www.fanaticguitars.com/" rel="noopener noreferrer">Fanatic Guitars</a>
           {text91}
@@ -61,7 +61,7 @@ export default function ProjectSection({ language }) {
           {text92}
           <a className="uk-link-heading uk-text-bolder" target="_blank" href="https://www.kilianjornetfoundation.org/" rel="noopener noreferrer">Kilian Jornet Foundation</a>
           {text93}
-        </p>
+        </p> */}
         <div className="uk-padding uk-padding-remove-top uk-flex uk-flex-around uk-flex-middle">
           <div className="uk-padding-small uk-padding-remove-bottom">
             <a className="uk-link-reset" target="_blank" href="https://www.fanaticguitars.com/" rel="noopener noreferrer">
