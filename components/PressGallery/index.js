@@ -5,6 +5,7 @@ import PressImage from '../PressImage'
 const handleDragStart = (e) => e.preventDefault();
 
 const items = [
+    <PressImage onDragStart={handleDragStart} description="Guitar Magazine 2" href="https://guitar.com/features/interviews/soul-mountain-jordi-mestre-lopez-climate-change-recording-on-mountain-peaks/" id="guitarmagazine2" src="pressImages\guitardotcom.png" width="280px" height="280px" />,
     <PressImage onDragStart={handleDragStart} description="Fanatic Guitars blog" href="https://www.fanaticguitars.com/blog/musica-y-alpinismo-contra-el-cambio-climatico/" id="Fanablog" src="sponsors\FanaticGuitars.png" width="280px" height="280px" />,
     <PressImage onDragStart={handleDragStart} description="Monocreators blog" href="https://blog.monocreators.com/soul-mountain-music-at-the-mountain-peak/" id="Monoblog" src="pressImages\mono.png" width="280px" height="280px" />,
     <PressImage onDragStart={handleDragStart} description="Guitar Magazine" href="https://guitar.com/features/interviews/meet-the-man-who-scaled-a-3000m-mountain-with-his-guitar-just-to-record-a-song/" id="guitarmagazine" src="pressImages\guitardotcom.png" width="280px" height="280px" />,
@@ -23,6 +24,7 @@ const items = [
 ];
 
 const itemsMobile = [
+    <PressImage onDragStart={handleDragStart} description="Guitar Magazine 2" href="https://guitar.com/features/interviews/soul-mountain-jordi-mestre-lopez-climate-change-recording-on-mountain-peaks/" id="guitarmagazine2" src="pressImages\guitardotcom.png" width="135px" height="135px" />,
     <PressImage onDragStart={handleDragStart} description="Fanatic Guitars blog" href="https://www.fanaticguitars.com/blog/musica-y-alpinismo-contra-el-cambio-climatico/" id="Fanablog" src="sponsors\FanaticGuitars.png" width="135px" height="135px" />,
     <PressImage onDragStart={handleDragStart} description="Monocreators blog" href="https://blog.monocreators.com/soul-mountain-music-at-the-mountain-peak/" id="Monoblog" src="pressImages\mono.png" width="135px" height="135px" />,
     <PressImage onDragStart={handleDragStart} description="Guitar Magazine" href="https://guitar.com/features/interviews/meet-the-man-who-scaled-a-3000m-mountain-with-his-guitar-just-to-record-a-song/" id="guitarmagazine" src="pressImages\guitardotcom.png" width="135px" height="135px" />,
