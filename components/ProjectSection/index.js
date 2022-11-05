@@ -79,6 +79,9 @@ export default function ProjectSection({ language }) {
             </a>
           </div>
         </div>
+        <div className="uk-padding uk-padding-remove-horizontal uk-flex uk-flex-around uk-flex-middle">
+          <img id="festivals" src="images\festivals.jpg" alt="seleccionada pels festivals" />
+        </div>
       </div>
     </div>
   </div>
