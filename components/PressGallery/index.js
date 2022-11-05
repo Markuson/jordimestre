@@ -16,7 +16,7 @@ const items = [
     <PressImage onDragStart={handleDragStart} description="Temps de Neu TV3" href="modal-tdn" id="tempsdeneu" src="pressImages\tempsdeneu.png" width="280px" height="280px" video />,
     <PressImage onDragStart={handleDragStart} description="Televisió de Catalunya" href="modal-tv3" id="tv3" src="pressImages\tv3.png" width="280px" height="280px" video />,
     <PressImage onDragStart={handleDragStart} description="La Sexta" href="modal-sexta" id="Sexta" src="pressImages\lasexta.png" width="280px" height="280px" video />,
-    <PressImage onDragStart={handleDragStart} description="Catalunya Radio" href="https://www.google.com/amp/s/www.ccma.cat/catradio/alacarta/eth-maitin-daran/jordi-mestre-encete-eth-projecte-musicau-soul-mountain-enregistrant-a-3-010-metres-de-nautada/audio-amp/1077636/" id="CatRadio" src="pressImages\catalunyaRadio.png" width="280px" height="280px" />,
+    <PressImage onDragStart={handleDragStart} description="Catalunya Radio" href="https://www.ccma.cat/catradio/alacarta/assaig-general/jordi-mestre-porta-la-musica-a-cims-de-mes-de-3-mil-metres-dalcada-amb-soul-mountain/audio-amp/1146671/" id="CatRadio" src="pressImages\catalunyaRadio.png" width="280px" height="280px" />,
     <PressImage onDragStart={handleDragStart} description="La Mañana" href="documents\LaManyana.pdf" id="laManyana" src="pressImages\lamanana.png" width="280px" height="280px" />,
     <PressImage onDragStart={handleDragStart} description="Lectura (diari Segre)" href="documents\SegreLectura.jpg" id="Segre" src="pressImages\segre.png" width="280px" height="280px" />,
     <PressImage onDragStart={handleDragStart} description="Territoris.cat" href="https://www.territoris.cat/articulo/la-panoramica/jordi-mestre/20200807093609066749.html" id="TerritorisCat" src="pressImages\territoris.png" width="280px" height="280px" />,
@@ -35,7 +35,7 @@ const itemsMobile = [
     <PressImage onDragStart={handleDragStart} description="Temps de Neu TV3" href="modal-tdn" id="tempsdeneu" src="pressImages\tempsdeneu.png" width="135px" height="135px" video />,
     <PressImage onDragStart={handleDragStart} description="Televisió de Catalunya" href="modal-tv3" id="tv3" src="pressImages\tv3.png" width="135px" height="135px" video />,
     <PressImage onDragStart={handleDragStart} description="La Sexta" href="modal-sexta" id="Sexta" src="pressImages\lasexta.png" width="135px" height="135px" video />,
-    <PressImage onDragStart={handleDragStart} description="Catalunya Radio" href="https://www.google.com/amp/s/www.ccma.cat/catradio/alacarta/eth-maitin-daran/jordi-mestre-encete-eth-projecte-musicau-soul-mountain-enregistrant-a-3-010-metres-de-nautada/audio-amp/1077636/" id="CatRadio" src="pressImages\catalunyaRadio.png" width="135px" height="135px" />,
+    <PressImage onDragStart={handleDragStart} description="Catalunya Radio" href="https://www.ccma.cat/catradio/alacarta/assaig-general/jordi-mestre-porta-la-musica-a-cims-de-mes-de-3-mil-metres-dalcada-amb-soul-mountain/audio-amp/1146671/" id="CatRadio" src="pressImages\catalunyaRadio.png" width="135px" height="135px" />,
     <PressImage onDragStart={handleDragStart} description="La Mañana" href="documents\LaManyana.pdf" id="laManyana" src="pressImages\lamanana.png" width="135px" height="135px" />,
     <PressImage onDragStart={handleDragStart} description="Lectura (diari Segre)" href="documents\SegreLectura.jpg" id="Segre" src="pressImages\segre.png" width="135px" height="135px" />,
     <PressImage onDragStart={handleDragStart} description="Territoris.cat" href="https://www.territoris.cat/articulo/la-panoramica/jordi-mestre/20200807093609066749.html" id="TerritorisCat" src="pressImages\territoris.png" width="135px" height="135px" />,
@@ -51,7 +51,7 @@ export default function PressGallery() {
                 responsive
                 autoWidth
                 autoPlay
-                autoPlayInterval='2000'
+                autoPlayInterval='5000'
                 autoPlayStrategy='all'
                 controlsStrategy={'responsive'}
                 disableDotsControls
@@ -65,7 +65,7 @@ export default function PressGallery() {
                 responsive
                 autoWidth
                 autoPlay
-                autoPlayInterval='2000'
+                autoPlayInterval='5000'
                 autoPlayStrategy='all'
                 controlsStrategy={'responsive'}
                 disableDotsControls
