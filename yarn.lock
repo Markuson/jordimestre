@@ -2988,6 +2988,7 @@ streamsearch@^1.1.0:
   integrity sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -3093,6 +3094,7 @@ string_decoder@^1.1.1:
     safe-buffer "~5.2.0"
 
 "strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+  name strip-ansi-cjs
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
@@ -3243,10 +3245,10 @@ typed-array-length@^1.0.6:
     is-typed-array "^1.1.13"
     possible-typed-array-names "^1.0.0"
 
-uikit@^3.5.7:
-  version "3.5.7"
-  resolved "https://registry.yarnpkg.com/uikit/-/uikit-3.5.7.tgz#2376be4272d086eb52be62cc679e55f266a693f2"
-  integrity sha512-X9im58e6c7IsQopy80TXizv3LXeBaUKTa5fseE/F8UV0jryPnU7JYBl2/1QGrX5IN9hbOb6UJB4o2wdElGJoxg==
+uikit@^3.21.13:
+  version "3.21.13"
+  resolved "https://registry.yarnpkg.com/uikit/-/uikit-3.21.13.tgz#81aa7a6b8460ff7dacf1a94e323adba126f2acee"
+  integrity sha512-Yc1VWCarqK8kMu9KCXfMH+1lQLZ0PxQRWML1ElJYt2KCwSNGxUVLJSDXcO4qtBR8asRAY+pHBtuM5iIQq0Odsg==
 
 unbox-primitive@^1.0.2:
   version "1.0.2"

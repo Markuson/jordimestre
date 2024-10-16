@@ -46,7 +46,7 @@ export default function PressGallery() {
 
 
     return <div>
-        <div className="uk-visible@l">
+        {/* <div className="uk-visible@l">
             <AliceCarousel
                 responsive
                 autoWidth
@@ -118,6 +118,6 @@ export default function PressGallery() {
                     data-uk-responsive
                 />
             </div>
-        </div>
+        </div> */}
     </div>
 }
