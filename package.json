@@ -26,7 +26,7 @@
     "react-dom": "^18.3.1",
     "react-google-recaptcha": "^2.1.0",
     "react-toastify": "^6.0.9",
-    "uikit": "^3.5.7"
+    "uikit": "^3.21.13"
   },
   "devDependencies": {
     "@types/uikit": "^3.3.1",
