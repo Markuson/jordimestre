@@ -57,15 +57,15 @@ const logic = {
             replyTo: email
         };
 
-        return (async () => {
-            try {
-                const response = await transporter.sendMail(message)
-                if (response.accepted.length > 0 ) return {status:"OK", description: "email sent"}
-                else return {status:"error", description:"error sending email"}
-            } catch (error) {
-                throw new Error(error.message)
-            }
-        })();
+        // return (async () => {
+        //     try {
+        //         const response = await transporter.sendMail(message)
+        //         if (response.accepted.length > 0 ) return {status:"OK", description: "email sent"}
+        //         else return {status:"error", description:"error sending email"}
+        //     } catch (error) {
+        //         throw new Error(error.message)
+        //     }
+        // })();
     }
 }
 

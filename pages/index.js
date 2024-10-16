@@ -10,7 +10,6 @@ import literals from '../utils/toastLiterals'
 import Header from '../components/Header'
 import VideoSection from '../components/VideoSection'
 import ProjectSection from '../components/ProjectSection'
-import ContactSection from '../components/ContactSection'
 import PressSection from '../components/PressSection'
 import TeamSection from '../components/TeamSection'
 import FooterSection from '../components/FooterSection';
@@ -54,55 +53,6 @@ export default function Home() {
     }
   }
 
-  const handleSendContactForm = async (email, subject, text) => {
-    try {
-      const response = await logic.sendEmail(email, subject, text)
-      if (response.status === 'OK') {
-        toast.dark(langLiterals.sendSuccess, {
-          position: "bottom-center",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-        });
-        window.scrollTo(0, 0)
-        return 'done'
-      } else {
-        toast.error(langLiterals.sendError, {
-          position: "bottom-center",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-        });
-        return 'errors'
-      }
-
-    } catch (error) {
-      var _message='Uncaught error'
-      if (error.message=='e-mail not valid') _message = langLiterals.errorInvalidEmail
-      if (error.message=='email is empty') _message = langLiterals.errorEmptyMail
-      if (error.message=='subject is empty') _message = langLiterals.errorEmptySubject
-      if (error.message=='text is empty') _message = langLiterals.errorEmptyText
-      console.log(_message)
-      toast.error(_message, {
-        position: "bottom-center",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-      });
-      return 'errors'
-    }
-
-  }
-
 
   return <>
     { language &&
@@ -126,10 +76,10 @@ export default function Home() {
           </section>
           {/* <section className="sponsorshipSection" id="sponsorship">
             <SponsorshipSection language={language} />
-          </section> */}
+          </section> 
           <section className="contactSection" id="contact">
             <ContactSection language={language} onContactFrom={handleSendContactForm} />
-          </section>
+          </section>*/}
         </main>
 
         <footer className={styles.footer}>
