@@ -21,7 +21,7 @@ export default function GallerySection({ language }) {
       </div>
       <div className="uk-flex uk-flex-center uk-padding uk-padding-remove-top">
         <div style={handleGalleryWidth()}>
-          {/* <div
+          <div
             className="uk-slideshow"
             data-uk-slideshow="animation: push; autoplay: true"
           >
@@ -130,7 +130,7 @@ export default function GallerySection({ language }) {
               </a>
             </div>
             <ul className="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin uk-visible@s"></ul>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
